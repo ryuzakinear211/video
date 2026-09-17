@@ -1,70 +1,981 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Judul Video</title>
-    <meta name="description" content="Deskripsi video.">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="video.other">
-    <meta property="og:title" content="Judul Video">
-    <meta property="og:description" content="Deskripsi video.">
-    <meta property="og:image" content="https://example.com/thumbnail.jpg">
-    <meta property="og:video" content="https://huggingface.co/buckets/nexus33rd/cloud/resolve/BLEACH.Thousand.Year.Blood.War.S01E45.1080p.NF.WEB-DL.AAC2.0.H.264-VARYG.mkv">
-    <meta property="og:video:url" content="https://huggingface.co/buckets/nexus33rd/cloud/resolve/BLEACH.Thousand.Year.Blood.War.S01E45.1080p.NF.WEB-DL.AAC2.0.H.264-VARYG.mkv">
-    <meta property="og:video:type" content="video/mp4">
-
-    <!-- Schema.org VideoObject -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-
-        "name": "Judul Video",
-
-        "description": "Deskripsi lengkap mengenai video.",
-
-        "thumbnailUrl": [
-            "https://image.tmdb.org/t/p/original/d8pipPG6EEvqFu1KnHvCk0xMALV.jpg"
-        ],
-
-        "uploadDate": "2026-08-24T00:00:00+07:00",
-
-        "duration": "PT1H30M",
-
-        "contentUrl": "https://levistream.freebuff.app/movie/mutiny-2026",
-        "embedUrl": "https://huggingface.co/buckets/nexus33rd/cloud/resolve/BLEACH.Thousand.Year.Blood.War.S01E45.1080p.NF.WEB-DL.AAC2.0.H.264-VARYG.mkv",
-
-        "publisher": {
-            "@type": "Organization",
-            "name": "Nama Website",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://example.com/logo.png"
+<html lang="en" style="min-width:fit-content">
+    <head>
+        <script>
+            (function() {
+                window.ddjskey = '7FC6D561817844F25B65CDD97F28A1';
+                window.ddoptions = {
+                    ajaxListenerPath: [{
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/me/followings/*",
+                        "strict": true
+                    }, {
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/users/*/track_likes/*",
+                        "strict": true
+                    }, {
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/users/*/tracks/*",
+                        "strict": true
+                    }, {
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/users/*/playlist_likes/*",
+                        "strict": true
+                    }, {
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/me/track_reposts/*",
+                        "strict": true
+                    }, {
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/me/playlist_reposts/*",
+                        "strict": true
+                    }, {
+                        "host": "api-mobi.soundcloud.com",
+                        "path": "/me",
+                        "strict": true
+                    }, {
+                        "host": "graph.soundcloud.com",
+                        "path": "/graphql",
+                        "strict": true
+                    }],
+                    overrideAbortFetch: true,
+                    sessionByHeader: true,
+                    enableTagEvents: true,
+                    endpoint: 'https://dwt.soundcloud.com/js/',
+                    disableAutoRefreshOnCaptchaPassed: true
+                };
             }
-        }
-    }
-    </script>
-</head>
+            )();
+        </script>
+        <script src="https://dwt.soundcloud.com/tags.js" async=""></script>
+        <link rel="preload" href="//style.sndcdn.com/fonts/soehne-buch-8cbc277535f3fe5afbb62e9b477ae965.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" href="//style.sndcdn.com/fonts/soehne-buch-kursiv-e5962c78732d771ba103a45dc0c86efc.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" href="//style.sndcdn.com/fonts/soehne-halbfett-bc1e16fad65be33d561a0a38f55439a0.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" href="//style.sndcdn.com/fonts/soehne-dreiviertelfett-80ec3782fed8a340275f8312be5dc106.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" href="//style.sndcdn.com/fonts/soehne-extrafett-bb4276a35507f83f21440b35d790803a.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" href="//style.sndcdn.com/fonts/soehne-breit-extrafett-a247758530180c37ca8a613e1d0a8fd7.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="dns-prefetch" href="//style.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//m.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//api-mobi.soundcloud.com"/>
+        <link rel="dns-prefetch" href="//l9bjkkhaycw6f8f4.soundcloud.com"/>
+        <link rel="dns-prefetch" href="//i1.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//i2.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//i3.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//i4.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//w1.sndcdn.com"/>
+        <link rel="dns-prefetch" href="//wis.sndcdn.com"/>
+        <link crossorigin="use-credentials" rel="manifest" href="/webmanifest.json"/>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied',
+                'functionality_storage': 'denied',
+                'personalization_storage': 'denied',
+                'security_storage': 'granted',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'region': ['BE', 'EL', 'LT', 'PT', 'BG', 'ES', 'LU', 'RO', 'CZ', 'FR', 'HU', 'SI', 'DK', 'HR', 'MT', 'SK', 'DE', 'IT', 'NL', 'FI', 'EE', 'CY', 'AT', 'SE', 'IE', 'LV', 'PL', 'US-CA']
+            });
+            gtag('consent', 'default', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted',
+                'functionality_storage': 'granted',
+                'personalization_storage': 'granted',
+                'security_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted'
+            });
+        </script>
+        <script type="text/javascript" src="https://onelinksmartscript.appsflyer.com/onelink-smart-script-latest.js"></script>
+        <meta charSet="utf-8"/>
+        <style>
+            body.ot-hide-banner #onetrust-banner-sdk {
+                visibility: hidden;
+                transform: translateY(110%);
+            }
 
-<body>
+            #onetrust-banner-sdk {
+                transition: transform 1s ease 200ms;
+                transform: translateY(0%);
+            }
+        </style>
+        <script src="https://cdn.cookielaw.org/consent/7e62c772-c97a-4d95-8d0a-f99bbeadcf61/otSDKStub.js" type="text/javascript" data-domain-script="7e62c772-c97a-4d95-8d0a-f99bbeadcf61" data-testid="ot-script"></script>
+        <script type="text/javascript">
+            (function() {
+                window.OptanonWrapper = function() {
+                    var activeCategories = window.OptanonActiveGroups.split(',').filter(Boolean);
 
-    <h1>Judul Video</h1>
+                    window.OneTrustConsentChangeListeners.forEach(function(listener) {
+                        try {
+                            listener(activeCategories);
+                        } catch (e) {}
+                    });
 
-    <video
-        controls
-        width="100%"
-        poster="https://example.com/thumbnail.jpg"
-    >
-        <source
-            src="https://huggingface.co/buckets/nexus33rd/cloud/resolve/BLEACH.Thousand.Year.Blood.War.S01E45.1080p.NF.WEB-DL.AAC2.0.H.264-VARYG.mkv"
-            type="video/mp4"
-        >
-
-        Browser Anda tidak mendukung pemutaran video.
-    </video>
-
-</body>
+                    window.OptanonWrapperCalls++;
+                }
+                ;
+                window.OptanonWrapperCalls = 0;
+                window.OneTrustConsentChangeListeners = window.OneTrustConsentChangeListeners || new Set();
+            }
+            )();
+        </script>
+        <link rel="icon" type="image/png" sizes="48x48" href="https://m.sndcdn.com/_next/static/images/favicon-48-b5f9a970b3ee16fd8f0698d0d34a1f32.png"/>
+        <link rel="apple-touch-icon" href="https://m.sndcdn.com/_next/static/images/apple-touch-icon-120-5985855d482b4a119eb401c43a01336b.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://m.sndcdn.com/_next/static/images/apple-touch-icon-180-dd8465ef631c16f24df540ad961c3d12.png"/>
+        <link rel="search" type="application/opensearchdescription+xml" href="/sc-opensearch.xml" title="SoundCloud"/>
+        <meta property="fb:app_id" content="19507961798"/>
+        <meta property="og:site_name" content="SoundCloud"/>
+        <meta property="al:ios:app_name" content="SoundCloud"/>
+        <meta property="al:ios:app_store_id" content="336353151"/>
+        <meta property="al:android:app_name" content="SoundCloud"/>
+        <meta property="al:android:package" content="com.soundcloud.android"/>
+        <title>Stream No Light From The Sun by OPIFEX | Listen online for free on SoundCloud</title>
+        <meta name="description" content="Stream No Light From The Sun by OPIFEX on desktop and mobile. Play over 320 million tracks for free on SoundCloud."/>
+        <meta name="keywords" content="record, sounds, share, sound, audio, tracks, music, soundcloud"/>
+        <meta name="referrer" content="origin"/>
+        <link rel="canonical" href="https://soundcloud.com/opifexofficial/no-light-from-the-sun"/>
+        <link rel="icon" type="image/png" sizes="48x48" href="https://m.sndcdn.com/_next/static/images/favicon-48-b5f9a970b3ee16fd8f0698d0d34a1f32.png"/>
+        <link rel="apple-touch-icon" href="https://m.sndcdn.com/_next/static/images/apple-touch-icon-120-5985855d482b4a119eb401c43a01336b.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://m.sndcdn.com/_next/static/images/apple-touch-icon-180-dd8465ef631c16f24df540ad961c3d12.png"/>
+        <link rel="search" type="application/opensearchdescription+xml" href="/sc-opensearch.xml" title="SoundCloud"/>
+        <meta name="theme-color" content="#333"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1"/>
+        <meta property="fb:app_id" content="19507961798"/>
+        <meta property="og:site_name" content="SoundCloud"/>
+        <meta property="al:ios:app_name" content="SoundCloud"/>
+        <meta property="al:ios:app_store_id" content="336353151"/>
+        <meta property="al:android:app_name" content="SoundCloud"/>
+        <meta property="al:android:package" content="com.soundcloud.android"/>
+        <meta name="twitter:app:name:iphone" content="SoundCloud"/>
+        <meta name="twitter:app:id:iphone" content="336353151"/>
+        <meta name="twitter:app:name:ipad" content="SoundCloud"/>
+        <meta name="twitter:app:id:ipad" content="336353151"/>
+        <meta name="twitter:app:name:googleplay" content="SoundCloud"/>
+        <meta name="twitter:app:id:googleplay" content="com.soundcloud.android"/>
+        <meta property="og:type" content="music.song"/>
+        <meta property="og:url" content="https://soundcloud.com/opifexofficial/no-light-from-the-sun"/>
+        <meta property="og:title" content="No Light From The Sun"/>
+        <meta property="og:image" content="https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t1080x1080.jpg"/>
+        <meta property="og:image:width" content="1080"/>
+        <meta property="og:image:height" content="1080"/>
+        <meta property="og:description" content="Stream No Light From The Sun by OPIFEX on desktop and mobile. Play over 320 million tracks for free on SoundCloud."/>
+        <meta property="al:web:should_fallback" content="false"/>
+        <meta property="al:ios:url" content="soundcloud://sounds:2252247356"/>
+        <meta property="al:android:url" content="soundcloud://sounds:2252247356"/>
+        <meta property="medium" content="video"/>
+        <meta property="og:video:width" content="460"/>
+        <meta property="og:video:height" content="98"/>
+        <meta property="og:video:type" content="application/x-shockwave-flash"/>
+        <meta property="og:video" content="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2252247356&amp;auto_play=false&amp;show_artwork=true&amp;visual=true&amp;color=3b5998&amp;origin=facebook"/>
+        <meta name="twitter:title" content="No Light From The Sun"/>
+        <meta name="twitter:description" content="Stream No Light From The Sun by OPIFEX on desktop and mobile. Play over 320 million tracks for free on SoundCloud."/>
+        <meta name="twitter:url" content="https://soundcloud.com/opifexofficial/no-light-from-the-sun"/>
+        <meta name="twitter:image:src" content="https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t1080x1080.jpg"/>
+        <meta name="twitter:app:url:googleplay" content="soundcloud://sounds:2252247356"/>
+        <meta name="twitter:app:url:iphone" content="soundcloud://sounds:2252247356"/>
+        <meta name="twitter:app:url:ipad" content="soundcloud://sounds:2252247356"/>
+        <meta name="twitter:player" content="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2252247356&amp;auto_play=false&amp;show_artwork=true&amp;visual=true&amp;origin=twitter"/>
+        <meta name="twitter:player:height" content="400"/>
+        <meta name="twitter:player:width" content="435"/>
+        <meta name="twitter:card" content="player"/>
+        <meta name="twitter:audio:partner" content="SoundCloud"/>
+        <meta name="twitter:audio:artist_name" content="OPIFEX"/>
+        <meta name="twitter:audio:source" content="https://api-partners.soundcloud.com/twitter/tracks/soundcloud:sounds:2252247356/vmap"/>
+        <link rel="alternate" type="text/xml+oembed" href="https://soundcloud.com/oembed?url=https%3A%2F%2Fsoundcloud.com%2Fopifexofficial%2Fno-light-from-the-sun&amp;format=xml"/>
+        <link rel="alternate" type="text/json+oembed" href="https://soundcloud.com/oembed?url=https%3A%2F%2Fsoundcloud.com%2Fopifexofficial%2Fno-light-from-the-sun&amp;format=json"/>
+        <script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"MusicRecording","@id":"soundcloud:tracks:2252247356","name":"No Light From The Sun by OPIFEX","description":"Original Lyrics + Music Wrote and Produced by OPIFEX\n\nLyrics\n\nCold, tired and mean.\nYou say I&apos;m wrong\nI guess we&apos;ll see.\nSkies will break,\nI&apos;ll wait.\nI know you&apos;ll come around to me.\nIn time,\nIn time,\n\n[Chorus]\nGot no light from the sun,\nI saw you lookin&apos; right at me,\nAnd it don&apos;t hurt bad\nI&apos;m sure,\n&apos;Cause the world is cold, tired and mean,\nYou say I&apos;m wrong\nI guess we&apos;ll see,\nSkies will break,\nI&apos;ll wait,\nI know you&apos;ll come around to me,\nIn time…\nIn time…\n\n\nAll Rights Reserved. Copyright 2026. OPIFEX.","url":"https://soundcloud.com/opifexofficial/no-light-from-the-sun","duration":"PT00H01M55S","genre":"Electronic","interactionStatistic":[{"@type":"InteractionCounter","interactionType":{"@type":"LikeAction"},"userInteractionCount":307},{"@type":"InteractionCounter","interactionType":{"@type":"DownloadAction"},"userInteractionCount":2},{"@type":"InteractionCounter","interactionType":{"@type":"CommentAction"},"userInteractionCount":14}],"image":"https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-large.jpg","audio":{"@type":"AudioObject","embedUrl":"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2252247356&amp;auto_play=false&amp;show_artwork=true&amp;visual=true&amp;origin=schema.org","height":"400px"},"byArtist":{"@type":"MusicGroup","@id":"soundcloud:users:62504729","name":"OPIFEX","url":"https://soundcloud.com/opifexofficial"},"provider":{"@type":"Organization","name":"SoundCloud","image":"https://m.sndcdn.com/_next/static/images/favicon-48-b5f9a970b3ee16fd8f0698d0d34a1f32.png"}}
+        </script>
+        <meta name="soundcloud:user" content="https://soundcloud.com/opifexofficial"/>
+        <meta name="soundcloud:play_count" content="932"/>
+        <meta name="soundcloud:download_count" content="2"/>
+        <meta name="soundcloud:comments_count" content="14"/>
+        <meta name="soundcloud:like_count" content="307"/>
+        <link rel="author" href="/opifexofficial"/>
+        <link rel="preload" as="image" href="https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t500x500.jpg"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/css/75c8ce1073ceef282eec.css" as="style"/>
+        <link rel="stylesheet" href="https://m.sndcdn.com/_next/static/css/75c8ce1073ceef282eec.css" data-n-g=""/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/css/7b8865cb419ad2113297.css" as="style"/>
+        <link rel="stylesheet" href="https://m.sndcdn.com/_next/static/css/7b8865cb419ad2113297.css" data-n-g=""/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/css/a930bf9ffcfd9fbcc678.css" as="style"/>
+        <link rel="stylesheet" href="https://m.sndcdn.com/_next/static/css/a930bf9ffcfd9fbcc678.css" data-n-p=""/>
+        <noscript data-n-css="true"></noscript>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/main-28b612e9b4e38a5ac1a9.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/webpack-d3d1fdee28db4bc2efe5.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/ffd80846.8c9e6bdf8307d28713a0.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/85f18be4.ea3e95de9b6ca8279474.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/d764dcb2.e390ede5497e6e7e6438.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/commons.3545ade2d54cac3a3884.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/a8d855b672da370e1c0a2276a471fe89d49ab9ba.50f7cacd427ce4bc045b.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/aa974de5a277ae81021d497fd1a86a4ec04f73fc.b6d3cb9a4689be9fe35f.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/da7bae30a150300be611ec854411cd7c908011ce.99c3931abdaa9656d4bd.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/62af44bfe8e37b7117ea717c2709ce403086add5.ae930009c370ca1b2430.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/92c7ba7f0a7a0c4f8648b3c28d55e87a2c102d84.5a4c3f6aac1dcc0a3894.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/61163c9b3e1b614e8979f3820a6578dc8c119e36.d576a1d5108094d9d992.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/7fd081664c3cd0713a0656ce356c6997f4aada2b.9a7e6e68c26b715d17b8.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/53410518dad80e551ecc792e1026fc46d0c526e3.5847dbabf601f5d0bca0.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/b751839ffc8498c1a5c528659c8ee667b3c9183b.ad23fe8c5803e561fc56.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/fe6282b7c3a730b5d7fd0a0a4dc7ffdb54e6844f.31317368d8fdbec42b1a.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/2363eaadcf05388b999211fc437c2ad1eb5651c2.70ae2aea11c4699248cc.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/4b7987ac2cdcc87a25b9d743ee997d9262d20626.aeab308a2d60ba74eeb3.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/7d94d6b936f3df216fb39386c8cd616c58799369.30ba6247cc03cc5bbf73.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/17b100088e274ba2cd9cebc48586e53537272479.88ecb0d7ac9b94c301db.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/17b100088e274ba2cd9cebc48586e53537272479_CSS.0b5f6bdc6f7c56fd5910.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/db3caabb5c6e46ae015a8f94b6218a21761cefdb.c2fa089a922b3947dfca.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/da41d81fc5383ee5afd948a53479347c2eb390a3.1dbc57032ec99b1db0a3.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/a0a91107783630a1b4c90503be1b6ecc636be72a.ba6852682325ef9ecfdf.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/d617f59ed564c0393c29c29090c7504aff36450f.f737d14b5f794da80daf.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/8c54897ce4c59728f90778a73ca913843147ff73.1d3cd3e1ca7de1bcc6e7.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/pages/_app-144e973cf205b5b05602.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/1edc6d2e72bc5e8c5241f6a3b92f474aab755558.75bea4f05cd5c9a7397c.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/bfbb44f9390276dbd6452c1dd4ff5e47d2f275c8.1e9a1cfb5aff0568b7b3.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/9e45d6ad353c0a0260d8697e6a5eecbb3912c5fa.e478d2c203dd6f71eb48.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/02589dcfa436bf2fab4b0fe7d07a3cafc1e0c3eb.0be9bbcf38e394da5c0b.js" as="script"/>
+        <link rel="preload" href="https://m.sndcdn.com/_next/static/chunks/pages/%5Buser%5D/%5Btrack%5D-a8cb72950dd3c5403db1.js" as="script"/>
+    </head>
+    <body class="ot-hide-banner" style="max-width:100vw;overflow-x:hidden">
+        <div id="__next">
+            <div class="LayoutWrapper_AppContainer__389TG">
+                <div class="Header_HeaderPlaceholder__3M8hV">
+                    <header class="Header_Position__1oIUO Header_LoggedOutHeaderContainer__1JGYd">
+                        <div class="Header_Container__1mw2_">
+                            <a class="Header_LogoLink__2CDnv" aria-label="Navigate to home" data-testid="sc-logo-link" href="/">
+                                <svg class="Header_LogoType__2z0lY" id="header-logo-wordmark" viewBox="0 0 418 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                    <title>Home</title>
+                                    <path transform="translate(-297.000000, -813.000000)" fill="currentColor" d="M440.485378,852.854445 C436.24284,853.038988 432.196902,851.056479 429.743025,847.590692 L433.70576,843.866677 C435.3998,846.011815 438.003382,847.23625 440.736033,847.172934 C443.994546,847.172934 445.510412,846.229994 445.510412,844.03378 C445.510412,842.171772 444.567472,841.336256 439.387271,840.094917 C434.20707,838.853579 430.793389,837.158674 430.793389,831.453292 C430.793389,826.189539 435.185817,822.966833 440.604737,822.966833 C444.456211,822.902673 448.132747,824.572232 450.618997,827.514429 L446.656263,831.572651 C445.117499,829.705819 442.8329,828.613754 440.413762,828.588664 C437.465583,828.588664 436.486836,829.913555 436.486836,831.202637 C436.486836,833.016901 437.68043,833.589826 442.025115,834.675997 C446.3698,835.762169 451.203858,837.325778 451.203858,843.616022 C451.275474,849.130429 447.981153,852.854445 440.485378,852.854445 Z M468.415494,852.854445 C461.253926,852.854445 456.32438,847.30423 456.32438,837.946447 C456.32438,828.588664 461.313606,822.966833 468.499046,822.966833 C475.684486,822.966833 480.554352,828.505113 480.554352,837.862895 C480.554352,847.220678 475.565126,852.854445 468.415494,852.854445 Z M468.415494,828.71996 C464.572119,828.71996 462.017826,831.990409 462.017826,837.862895 C462.017826,843.735381 464.691479,847.101318 468.534854,847.101318 C472.378229,847.101318 474.932521,843.830869 474.932521,837.946447 C474.932521,832.062025 472.234997,828.71996 468.379686,828.71996 L468.415494,828.71996 Z M498.494081,852.854445 C491.857694,852.854445 487.381714,848.080066 487.381714,839.724903 L487.381714,823.420399 L492.884186,823.420399 L492.884186,839.605544 C492.884186,844.236691 494.996848,847.172934 498.494081,847.172934 C501.991313,847.172934 504.15172,844.320243 504.15172,839.689095 L504.15172,823.420399 L509.654191,823.420399 L509.654191,839.605544 C509.654191,848.00845 505.488546,852.854445 498.494081,852.854445 Z M535.507453,852.388943 L525.409642,836.573813 C524.741229,835.499578 523.834097,834.043392 523.487954,833.303364 C523.487954,834.377599 523.55957,838.018063 523.55957,839.629416 L523.55957,852.388943 L518.14065,852.388943 L518.14065,823.420399 L523.404402,823.420399 L533.144135,838.73422 C533.812548,839.808455 534.71968,841.252704 535.065823,842.004669 C535.065823,840.930434 534.994207,837.28997 534.994207,835.666681 L534.994207,823.420399 L540.413127,823.420399 L540.413127,852.388943 L535.507453,852.388943 Z M557.290556,852.388943 L549.090561,852.388943 L549.090561,823.420399 L557.684443,823.420399 C565.538296,823.420399 571.351102,827.311518 571.351102,837.910639 C571.351102,848.092002 564.356637,852.388943 557.290556,852.388943 Z M557.493467,829.030295 L554.581096,829.030295 L554.581096,846.767112 L557.290556,846.767112 C563.067555,846.767112 565.645719,843.186328 565.645719,837.910639 C565.693463,831.990409 563.306274,829.04223 557.493467,829.04223 L557.493467,829.030295 Z M595.21106,831.859114 C594.356083,829.865915 592.352274,828.614129 590.186027,828.71996 C586.056189,828.71996 583.704807,832.527527 583.704807,837.910639 C583.704807,843.293751 586.091997,847.101318 590.221834,847.101318 C592.704511,847.101318 594.148761,845.979339 595.604947,843.413111 L600.236094,846.313546 C598.575555,850.429125 594.500291,853.050304 590.066667,852.854445 C582.905099,852.854445 578.047168,847.053575 578.047168,837.910639 C578.047168,829.089974 583.072202,822.966833 590.269578,822.966833 C594.637269,822.765709 598.66007,825.331319 600.319646,829.376437 L595.21106,831.859114 Z M608.209307,852.388943 L608.209307,823.420399 L613.699842,823.420399 L613.699842,846.68356 L627.485861,846.68356 L627.485861,852.388943 L608.209307,852.388943 Z M642.441603,852.854445 C635.280035,852.854445 630.350489,847.30423 630.350489,837.946447 C630.350489,828.588664 635.339715,822.966833 642.525155,822.966833 C649.710595,822.966833 654.580461,828.505113 654.580461,837.862895 C654.580461,847.220678 649.591235,852.854445 642.441603,852.854445 Z M642.441603,828.71996 C638.598228,828.71996 636.043935,831.990409 636.043935,837.862895 C636.043935,843.735381 638.705652,847.101318 642.560963,847.101318 C646.416273,847.101318 648.95863,843.830869 648.95863,837.946447 C648.95863,832.062025 646.24917,828.71996 642.405795,828.71996 L642.441603,828.71996 Z M672.52019,852.854445 C665.883803,852.854445 661.407823,848.080066 661.407823,839.724903 L661.407823,823.420399 L666.910295,823.420399 L666.910295,839.605544 C666.910295,844.236691 669.022957,847.172934 672.52019,847.172934 C676.017422,847.172934 678.177829,844.320243 678.177829,839.689095 L678.177829,823.420399 L683.716108,823.420399 L683.716108,839.605544 C683.716108,848.00845 679.514655,852.854445 672.52019,852.854445 Z M700.689025,852.567982 L692.489029,852.567982 L692.489029,823.575567 L701.082911,823.575567 C708.936764,823.575567 714.749571,827.478621 714.749571,838.065806 C714.749571,848.259105 707.755106,852.567982 700.689025,852.567982 Z M700.891936,829.209334 L698.039245,829.209334 L698.039245,846.934215 L700.748705,846.934215 C706.525703,846.934215 709.103868,843.353431 709.103868,838.077742 C709.091932,832.097833 706.704742,829.209334 700.891936,829.209334 L700.891936,829.209334 Z M408.473168,848.06813 C408.234449,856.423293 400.989329,862.809025 392.68191,862.809025 L354.68979,862.809025 C352.947564,862.795888 351.544012,861.376326 351.550636,859.634063 L351.550636,818.753444 C351.478093,817.302558 352.316136,815.959785 353.651363,815.387507 C353.651363,815.387507 357.136659,813 364.489203,813 C369.005431,812.984108 373.440942,814.197169 377.320346,816.509486 C383.43089,820.085391 387.760933,826.060851 389.256293,832.981093 C390.567141,832.601247 391.925892,832.412308 393.290643,832.420103 C397.398224,832.4215 401.330245,834.085869 404.190564,837.033885 C407.050882,839.981902 408.595782,843.962379 408.473168,848.06813 Z M346.800129,821.355481 C347.94598,835.213115 348.781496,847.853283 346.800129,861.687046 C346.800129,862.366026 346.249707,862.916448 345.570726,862.916448 C344.891746,862.916448 344.341324,862.366026 344.341324,861.687046 C342.503188,847.984579 343.314832,835.093756 344.341324,821.355481 C344.341324,820.6765 344.891746,820.126078 345.570726,820.126078 C346.249707,820.126078 346.800129,820.6765 346.800129,821.355481 Z M339.137251,826.129859 C340.462141,838.495501 340.856027,849.321405 339.113379,861.73479 C339.025903,862.373132 338.480541,862.848857 337.836233,862.848857 C337.191924,862.848857 336.646562,862.373132 336.559086,861.73479 C335.019349,849.500444 335.365492,838.388077 336.559086,826.129859 C336.559086,825.417919 337.136228,824.840777 337.848169,824.840777 C338.560109,824.840777 339.137251,825.417919 339.137251,826.129859 Z M331.414693,824.936265 C332.667968,837.61224 333.228957,848.987198 331.414693,861.698982 C331.414693,862.381258 330.861599,862.934352 330.179323,862.934352 C329.497046,862.934352 328.943952,862.381258 328.943952,861.698982 C327.177432,849.190109 327.750357,837.469009 328.943952,824.936265 C328.943952,824.253988 329.497046,823.700894 330.179323,823.700894 C330.861599,823.700894 331.414693,824.253988 331.414693,824.936265 Z M323.763751,828.517049 C325.273656,839.546976 325.261607,850.732013 323.727943,861.758662 C323.664766,862.406805 323.119917,862.901129 322.468701,862.901129 C321.817485,862.901129 321.272635,862.406805 321.209458,861.758662 C319.789122,850.72364 319.789122,839.552071 321.209458,828.517049 C321.209458,827.8117 321.781256,827.239902 322.486605,827.239902 C323.191953,827.239902 323.763751,827.8117 323.763751,828.517049 L323.763751,828.517049 Z M316.005385,836.740916 C317.962881,845.41835 317.067685,853.021548 315.87409,861.806405 C315.87409,862.465609 315.339699,863 314.680495,863 C314.021291,863 313.486901,862.465609 313.486901,861.806405 C312.508153,853.16478 311.636829,845.29899 313.486901,836.740916 C313.550078,836.092772 314.094927,835.598449 314.746143,835.598449 C315.397359,835.598449 315.942208,836.092772 316.005385,836.740916 Z M308.318635,835.475706 C310.120964,844.296371 309.524166,851.792146 308.270892,860.648618 C308.151532,861.949637 305.883702,861.961573 305.764343,860.648618 C304.630428,851.911505 304.15299,844.177011 305.716599,835.475706 C305.804969,834.824815 306.360755,834.339388 307.017617,834.339388 C307.674479,834.339388 308.230266,834.824815 308.318635,835.475706 Z M300.572206,839.712967 C302.434214,845.609325 301.765801,850.371768 300.452846,856.327806 C300.452846,856.98701 299.918456,857.5214 299.259252,857.5214 C298.600047,857.5214 298.065657,856.98701 298.065657,856.327806 C296.943678,850.45532 296.418496,845.573517 297.958233,839.712967 C298.02268,839.039356 298.588532,838.525056 299.26522,838.525056 C299.941907,838.525056 300.50776,839.039356 300.572206,839.712967 Z"></path>
+                                </svg>
+                            </a>
+                            <div class="Header_RightContainer__1VyFh">
+                                <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- Button_Tertiary__3-xll Button_Medium__3vYzd" type="button" data-testid="sign-in-button">
+                                    <span class="Typography_Heading4__2tI40">Sign in</span>
+                                </button>
+                                <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- Button_Primary__ka8Iw Button_Medium__3vYzd" type="button">
+                                    <span class="Typography_Heading4__2tI40">Listen in app</span>
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0">
+                    <div class="LayoutWrapper_AppBody__YOuQc">
+                        <div class="HeroImage_HeroImageContainer__1tPh-" style="padding-bottom:100%">
+                            <img src="https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t500x500.jpg" class="" alt="No Light From The Sun"/>
+                        </div>
+                        <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-bottom:0;margin-right:16px;margin-left:16px">
+                            <div class="PlayableHeader_Information__1_KdS" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:16px;margin-bottom:0;margin-right:0;margin-left:0">
+                                <div class="PlayableHeader_TextGroup__vkZ7E">
+                                    <h1 class="PlayableHeader_Title__DndQM">No Light From The Sun</h1>
+                                    <h2 class="PlayableHeader_Subtitle__3S7Zw">
+                                        <a class="PlayableHeader_SubtitleLink__KXLxo" href="/opifexofficial">OPIFEX</a>
+                                    </h2>
+                                </div>
+                                <button class="ControlButton_ControlButton___qsiE ControlButton_DarkBtn__17hNi" aria-label="Play">
+                                    <svg viewBox="0 0 24 24" data-testid="play-button" class="ControlButton_PlayButtonIcon__2BcGf" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path fill="currentColor" d="m19.653 11.367-11-7A.75.75 0 0 0 7.5 5v14a.75.75 0 0 0 1.153.633l11-7a.75.75 0 0 0 0-1.266Z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:8px;margin-bottom:0;margin-right:0;margin-left:0">
+                                <div class="Metadata_CellMetadataCollection__2YcjV">
+                                    <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                        <div class="Metadata_MetadataIcon__Z0jRK">
+                                            <svg viewBox="0 0 24 24" width="14px" height="14px" data-testid="cell-metadata-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                <path fill="currentColor" d="m19.653 11.367-11-7A.75.75 0 0 0 7.5 5v14a.75.75 0 0 0 1.153.633l11-7a.75.75 0 0 0 0-1.266Z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="Metadata_MetadataLabel__3GU8Y">932</div>
+                                    </div>
+                                    <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                        <div class="Metadata_MetadataLabel__3GU8Y">1:55</div>
+                                    </div>
+                                    <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                        <div class="Metadata_MetadataLabel__3GU8Y">Jan 22, 2026</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:16px;margin-bottom:0;margin-right:0;margin-left:0">
+                                <div class="EntityEngagements_EntityEngagementsDefault__tTv5y Engagement_EngagementCollection__2CGGR" data-testid="engagement-collection">
+                                    <div role="button" tabindex="0" aria-label="Like" class="Engagement_EngagementItem__DBRbj">
+                                        <svg data-testid="cell-engagement-icon" width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path d="M10.763 6.335a4.25 4.25 0 0 0-6.01 6.01L12 19.593l6.54-6.54.708-.708a4.25 4.25 0 1 0-6.01-6.01l-.708.707a.75.75 0 0 1-1.06 0l-.707-.707Zm1.77 14.846a.75.75 0 0 1-1.063.003l-7.778-7.778a5.75 5.75 0 0 1 8.131-8.132l.177.177.177-.177a5.75 5.75 0 1 1 8.131 8.132l-7.775 7.775Z" fill="currentColor"></path>
+                                        </svg>
+                                        <div class="Engagement_EngagementLabel__2PEJl">307</div>
+                                    </div>
+                                    <div role="button" tabindex="0" aria-label="Comment" class="Engagement_EngagementItem__DBRbj">
+                                        <svg data-testid="cell-engagement-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path fill="currentColor" d="M8.25 9h7.5v1.5h-7.5V9ZM15.75 12.5h-7.5V14h7.5v-1.5Z"></path>
+                                            <path fill="currentColor" d="M2.25 4.5A.75.75 0 0 1 3 3.75h18a.75.75 0 0 1 .75.75v14a.75.75 0 0 1-.75.75h-7.309L8.36 22.158A.75.75 0 0 1 7.25 21.5v-2.25H3a.75.75 0 0 1-.75-.75v-14Zm1.5.75v12.5H8a.75.75 0 0 1 .75.75v1.737l4.39-2.395a.75.75 0 0 1 .36-.092h6.75V5.25H3.75Z"></path>
+                                        </svg>
+                                        <div class="Engagement_EngagementLabel__2PEJl">14</div>
+                                    </div>
+                                    <div role="button" tabindex="0" aria-label="Repost" class="Engagement_EngagementItem__DBRbj">
+                                        <svg data-testid="cell-engagement-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path d="M11.25 4.25H19a.75.75 0 0 1 .75.75v12.2l2.253-2.26 1.063 1.058-3.53 3.542a.75.75 0 0 1-1.062 0l-3.53-3.542 1.063-1.059 2.243 2.251V5.75h-7v-1.5ZM4.474 4.47.944 8.013l1.063 1.06L4.25 6.82V19c0 .414.336.75.75.75h7.75v-1.5h-7V6.81l2.253 2.261 1.063-1.059-3.53-3.541a.75.75 0 0 0-1.062 0Z" fill="currentColor"></path>
+                                        </svg>
+                                        <div class="Engagement_EngagementLabel__2PEJl">25</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:24px;margin-bottom:0;margin-right:0;margin-left:0">
+                                <div data-testid="text-content" dir="auto" class="CollapsibleText_TextContent__3kk0y">
+                                    <p>Original Lyrics + Music Wrote and Produced by OPIFEX</p>
+                                    <p>Lyrics</p>
+                                    <p>
+                                        Cold, tired and mean.<br>
+                                        You say I'm wrong<br>
+                                        I guess we'll see.<br>
+                                        Skies will break,<br>
+                                        I'll wait.<br>
+                                        I know you'll come around to me.<br>
+                                        In time,<br>In time,
+                                    </p>
+                                    <p>
+                                        [Chorus]<br>Got no li &hellip;
+                                    </p>
+                                </div>
+                                <div class="CollapsibleText_ShowMoreLinkWrapper__1VCkV">
+                                    <button class="CollapsibleText_ShowMoreLink__27bRO">Show more</button>
+                                </div>
+                            </div>
+                            <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:32px;margin-bottom:0;margin-right:0;margin-left:0">
+                                <div class="TagsList_TagsContainer__42gYz">
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Indie">#
+                                    <!-- -->
+                                    Indie</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Downtempo">#
+                                    <!-- -->
+                                    Downtempo</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Alternative">#
+                                    <!-- -->
+                                    Alternative</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Electronic">#
+                                    <!-- -->
+                                    Electronic</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Breakbeat">#
+                                    <!-- -->
+                                    Breakbeat</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Jungle">#
+                                    <!-- -->
+                                    Jungle</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Drum%20and%20Bass">#
+                                    <!-- -->
+                                    Drum and Bass</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Bass%20Music">#
+                                    <!-- -->
+                                    Bass Music</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Heavy">#
+                                    <!-- -->
+                                    Heavy</a>
+                                    <a class="TagsList_PillButton__1mo4B" data-testid="tag-link" href="/tags/Emotional">#
+                                    <!-- -->
+                                    Emotional</a>
+                                    <button class="TagsList_ShowMoreLink__2CFbT">See more</button>
+                                </div>
+                            </div>
+                            <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:16px;margin-bottom:0;margin-right:0;margin-left:0">
+                                <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                    <a class="Cell_CellLink__3yLVS Cell_Cell__1utfG Cell_Fluid__3Ow9S" aria-label="OPIFEX" data-testid="cell-entity-link" href="/opifexofficial">
+                                        <div class="Artwork_CircularArtwork__rfVyb Artwork_Loading__a1D-L Artwork_ArtworkBorder__3rZix Artwork_Medium__1IhSC">
+                                            <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                <div class="RatioBox_InnerBox__M7kq9">
+                                                    <picture>
+                                                        <img class="Artwork_ArtworkImage__1Ws9- Artwork_CircularArtwork__rfVyb" alt="OPIFEX" src="https://i1.sndcdn.com/avatars-grwiCDHWJKma0yRq-CwjCBw-t240x240.jpg" data-testid="actual-image"/>
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Information_InfoSection__xy8SA">
+                                            <div class="Information_CellTitle__2KitR">
+                                                <div class="UserCell_TitleWithBadge__vae12">
+                                                    <div class="UserCell_TitleText__2B36E">OPIFEX</div>
+                                                </div>
+                                            </div>
+                                            <div class="Information_CellDetails__b5CtI">
+                                                <div class="Information_CellSubtitle__1mXGx">Philadelphia, PA</div>
+                                                <div class="Information_CellMetadataWrapper__2k1P0">
+                                                    <div class="Metadata_CellMetadataCollection__2YcjV">
+                                                        <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                            <div class="Metadata_MetadataIcon__Z0jRK">
+                                                                <svg width="12px" height="12px" data-testid="cell-metadata-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                                    <path fill="currentColor" fill-rule="evenodd" d="M12 4.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5ZM7.25 8a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0ZM6.937 16.242c-.818.564-1.187 1.41-1.187 2.758v.75h-1.5V19c0-1.653.478-3.056 1.835-3.992C7.368 14.122 9.314 13.75 12 13.75s4.632.372 5.915 1.258c1.357.936 1.835 2.34 1.835 3.992v.75h-1.5V19c0-1.347-.37-2.194-1.187-2.758-.89-.614-2.444-.992-5.063-.992-2.618 0-4.173.378-5.063.992Z" clip-rule="evenodd"></path>
+                                                                </svg>
+                                                            </div>
+                                                            <div class="Metadata_MetadataLabel__3GU8Y">1299 Followers</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="Cell_ButtonWrapper__15WzD">
+                                        <button type="button" data-testid="follow-button" aria-label="Follow" class="BaseButton_BaseButton__2quBl Button_shared_Button__18QJc IconButton_IconButton__eSy5V Button_Tertiary__15L46 IconButton_Medium__2mLx8">
+                                            <span class="IconButton_Icon__1v9VA">
+                                                <svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                    <g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path d="M4.25 7C4.25 3.27208 7.27208 0.25 11 0.25C14.7279 0.25 17.75 3.27208 17.75 7C17.75 10.7279 14.7279 13.75 11 13.75C7.27208 13.75 4.25 10.7279 4.25 7ZM11 1.75C8.1005 1.75 5.75 4.10051 5.75 7C5.75 9.8995 8.1005 12.25 11 12.25C13.8995 12.25 16.25 9.8995 16.25 7C16.25 4.10051 13.8995 1.75 11 1.75Z"></path>
+                                                        <path d="M22.25 13.75V17H23.75V13.75H27V12.25H23.75V9H22.25V12.25H19V13.75H22.25Z"></path>
+                                                        <path d="M11 15.25C6.64119 15.25 3.85056 16.2797 2.20786 18.4309C0.606833 20.5274 0.25 23.5115 0.25 27V27.75H21.75V27C21.75 23.4974 21.3934 20.5126 19.7917 18.4192C18.1484 16.2715 15.3572 15.25 11 15.25ZM20.2437 26.25H1.75635C1.81071 23.1538 2.22469 20.8803 3.40001 19.3412C4.6266 17.735 6.83596 16.75 11 16.75C15.1657 16.75 17.3745 17.7285 18.6004 19.3308C19.7755 20.8666 20.1895 23.1401 20.2437 26.25Z"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:40px;margin-bottom:0;margin-right:16px;margin-left:16px" id="comments">
+                            <div class="SectionHeader_SectionHeader__3nw45">
+                                <div class="SectionHeader_TitleSection__3oktu">
+                                    <h2 class="SectionHeader_TitleText__1pCQw SectionHeader_SectionTitleText__AH_9f" data-testid="section-header-2">Recent comments</h2>
+                                </div>
+                                <a class="SectionHeader_SeeAllLink__2R5TB" href="/opifexofficial/no-light-from-the-sun/comments">See all</a>
+                            </div>
+                            <ul class="List_VerticalList__2uQYU">
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <div class="ReceivedCommentCell_AvatarWithReadState__2BV18">
+                                            <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="Neonblackunicorn" data-testid="cell-entity-link" href="/jessica-williams-7">
+                                                <div class="Artwork_CircularArtwork__rfVyb Artwork_Loading__a1D-L Artwork_Nano__kFL97">
+                                                    <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                        <div class="RatioBox_InnerBox__M7kq9">
+                                                            <picture>
+                                                                <img class="Artwork_ArtworkImage__1Ws9- Artwork_CircularArtwork__rfVyb" alt="Neonblackunicorn" src="https://i1.sndcdn.com/avatars-Zo5ftIDc0sizL4AV-WzUtHw-t60x60.jpg" data-testid="actual-image"/>
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="ReceivedCommentCell_Comment__1jpob">
+                                            <div class="ReceivedCommentCell_CommentTitle__1DZ2j">
+                                                <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="Neonblackunicorn" data-testid="cell-entity-link" href="/jessica-williams-7">
+                                                    <h4 class="Typography_Heading4__2tI40">Neonblackunicorn</h4>
+                                                </a>
+                                                <span class="ReceivedCommentCell_ElapsedTime__SnQf5">
+                                                    <span class="Typography_Body__37bJ8">· 
+                                                    <!-- -->
+                                                    2w</span>
+                                                </span>
+                                            </div>
+                                            <span class="Typography_Body__37bJ8">
+                                                <p class="Comment_CommentTrack__3sr4H" dir="auto">I LOVE THIS❤︎</p>
+                                                <div class="Comment_CommentActions__3Fl7Z">
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="like-action">
+                                                        <span class="Typography_Heading5__27SZ5">Like</span>
+                                                    </button>
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="reply-action">
+                                                        <span class="Typography_Heading5__27SZ5">Reply</span>
+                                                    </button>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <div class="ReceivedCommentCell_AvatarWithReadState__2BV18">
+                                            <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="ZENXOW" data-testid="cell-entity-link" href="/zenxow">
+                                                <div class="Artwork_CircularArtwork__rfVyb Artwork_Loading__a1D-L Artwork_Nano__kFL97">
+                                                    <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                        <div class="RatioBox_InnerBox__M7kq9">
+                                                            <picture>
+                                                                <img class="Artwork_ArtworkImage__1Ws9- Artwork_CircularArtwork__rfVyb" alt="ZENXOW" src="https://i1.sndcdn.com/avatars-QANl6TcxHyRA0DzE-XZkFKQ-t60x60.jpg" data-testid="actual-image"/>
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="ReceivedCommentCell_Comment__1jpob">
+                                            <div class="ReceivedCommentCell_CommentTitle__1DZ2j">
+                                                <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="ZENXOW" data-testid="cell-entity-link" href="/zenxow">
+                                                    <h4 class="Typography_Heading4__2tI40">ZENXOW</h4>
+                                                </a>
+                                                <svg width="16" height="16" class="ReceivedCommentCell_VerifiedBadge__1mWTA" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                                    <title>Verified badge</title>
+                                                    <path fill="currentColor" d="M13.54 5.7c.1.22.34.48.58.72.41.44.88.93.88 1.58s-.47 1.14-.88 1.57c-.24.25-.5.52-.58.72-.08.21-.08.55-.09.88 0 .6-.02 1.3-.5 1.78s-1.17.5-1.78.5h-.1c-.3 0-.58.01-.78.1-.21.09-.47.33-.71.57-.44.41-.93.88-1.58.88s-1.14-.47-1.58-.88c-.24-.24-.5-.5-.71-.58-.21-.08-.55-.08-.88-.09-.6 0-1.3-.02-1.78-.5s-.5-1.17-.5-1.78v-.1c0-.3-.01-.58-.1-.78-.09-.21-.33-.47-.57-.71C1.47 9.13 1 8.64 1 8s.47-1.14.88-1.58c.24-.24.5-.5.58-.71.08-.21.08-.55.09-.88 0-.6.02-1.3.5-1.78s1.17-.5 1.78-.5h.1c.3 0 .58-.01.78-.1.21-.09.47-.33.71-.57C6.87 1.47 7.35 1 8 1s1.14.47 1.57.88c.25.24.52.5.72.58.21.08.55.08.88.09.6 0 1.3.02 1.78.5s.5 1.17.5 1.78v.1c0 .3.01.58.1.78Zm-5.76 4.83 4.03-4.03-1.06-1.06-3.5 3.5-2-2L4.19 8l2.53 2.53c.3.3.77.3 1.06 0Z"></path>
+                                                </svg>
+                                                <span class="ReceivedCommentCell_ElapsedTime__SnQf5">
+                                                    <span class="Typography_Body__37bJ8">· 
+                                                    <!-- -->
+                                                    3w</span>
+                                                </span>
+                                            </div>
+                                            <span class="Typography_Body__37bJ8">
+                                                <p class="Comment_CommentTrack__3sr4H" dir="auto">🗿🗿</p>
+                                                <div class="Comment_CommentActions__3Fl7Z">
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="like-action">
+                                                        <span class="Typography_Heading5__27SZ5">Like</span>
+                                                    </button>
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="reply-action">
+                                                        <span class="Typography_Heading5__27SZ5">Reply</span>
+                                                    </button>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <div class="ReceivedCommentCell_AvatarWithReadState__2BV18">
+                                            <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="Doug Stoothoff" data-testid="cell-entity-link" href="/doug-stoothoff">
+                                                <div class="Artwork_CircularArtwork__rfVyb Artwork_Loading__a1D-L Artwork_Nano__kFL97">
+                                                    <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                        <div class="RatioBox_InnerBox__M7kq9">
+                                                            <picture>
+                                                                <img class="Artwork_ArtworkImage__1Ws9- Artwork_CircularArtwork__rfVyb" alt="Doug Stoothoff" src="https://i1.sndcdn.com/avatars-p5C1pGPgbFKynIYH-7RvUCA-t60x60.jpg" data-testid="actual-image"/>
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="ReceivedCommentCell_Comment__1jpob">
+                                            <div class="ReceivedCommentCell_CommentTitle__1DZ2j">
+                                                <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="Doug Stoothoff" data-testid="cell-entity-link" href="/doug-stoothoff">
+                                                    <h4 class="Typography_Heading4__2tI40">Doug Stoothoff</h4>
+                                                </a>
+                                                <span class="ReceivedCommentCell_ElapsedTime__SnQf5">
+                                                    <span class="Typography_Body__37bJ8">· 
+                                                    <!-- -->
+                                                    4mo</span>
+                                                </span>
+                                            </div>
+                                            <span class="Typography_Body__37bJ8">
+                                                <p class="Comment_CommentTrack__3sr4H" dir="auto">🤘</p>
+                                                <div class="Comment_CommentActions__3Fl7Z">
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="like-action">
+                                                        <span class="Typography_Heading5__27SZ5">Like</span>
+                                                    </button>
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="reply-action">
+                                                        <span class="Typography_Heading5__27SZ5">Reply</span>
+                                                    </button>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <div class="ReceivedCommentCell_AvatarWithReadState__2BV18">
+                                            <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="Fabrizio Manzitti Group" data-testid="cell-entity-link" href="/user-313430783-790339134">
+                                                <div class="Artwork_CircularArtwork__rfVyb Artwork_Loading__a1D-L Artwork_Nano__kFL97">
+                                                    <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                        <div class="RatioBox_InnerBox__M7kq9">
+                                                            <picture>
+                                                                <img class="Artwork_ArtworkImage__1Ws9- Artwork_CircularArtwork__rfVyb" alt="Fabrizio Manzitti Group" src="https://i1.sndcdn.com/avatars-rkeQdMkvBcA1Dm8E-myldkA-t60x60.jpg" data-testid="actual-image"/>
+                                                            </picture>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="ReceivedCommentCell_Comment__1jpob">
+                                            <div class="ReceivedCommentCell_CommentTitle__1DZ2j">
+                                                <a class="Cell_CellLink__3yLVS Cell_Fluid__3Ow9S" aria-label="Fabrizio Manzitti Group" data-testid="cell-entity-link" href="/user-313430783-790339134">
+                                                    <h4 class="Typography_Heading4__2tI40">Fabrizio Manzitti Group</h4>
+                                                </a>
+                                                <span class="ReceivedCommentCell_ElapsedTime__SnQf5">
+                                                    <span class="Typography_Body__37bJ8">· 
+                                                    <!-- -->
+                                                    4mo</span>
+                                                </span>
+                                            </div>
+                                            <span class="Typography_Body__37bJ8">
+                                                <p class="Comment_CommentTrack__3sr4H" dir="auto">big tune 🎵</p>
+                                                <div class="Comment_CommentActions__3Fl7Z">
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="like-action">
+                                                        <span class="Typography_Heading5__27SZ5">Like</span>
+                                                    </button>
+                                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- MicroButton_MicroButton__36MGp MicroButton_Secondary__SZiTd" type="button" data-testid="reply-action">
+                                                        <span class="Typography_Heading5__27SZ5">Reply</span>
+                                                    </button>
+                                                </div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="Comment_CommentInlineForm__Srb5L Grid_HorizontalList__2hbSE" style="padding-top:16px;padding-bottom:16px;padding-right:16px;padding-left:16px;margin-top:8px;margin-bottom:8px;margin-right:-16px;margin-left:-16px">
+                                <div class="Artwork_CircularArtwork__rfVyb Artwork_Loading__a1D-L Artwork_ArtworkBorder__3rZix Artwork_Nano__kFL97">
+                                    <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                        <div class="RatioBox_InnerBox__M7kq9">
+                                            <picture>
+                                                <img class="Artwork_ArtworkImage__1Ws9- Artwork_CircularArtwork__rfVyb" alt="Avatar" src="https://m.sndcdn.com/_next/static/images/default-user-avatar-micro-placeholder-t60x60.jpg" data-testid="actual-image"/>
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Comment_CommentInlineFormButtonContainer__3bNGP">
+                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- Button_Tertiary__3-xll Button_Large__1eBox" type="button" data-testid="comment-form-input">
+                                        <span class="Typography_Heading4__2tI40">Join the discussion</span>
+                                    </button>
+                                    <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- Button_Tertiary__3-xll Button_Large__1eBox" type="button" data-testid="comment-form-button">
+                                        <span class="Typography_Heading4__2tI40">Comment in app</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:40px;margin-bottom:0;margin-right:16px;margin-left:16px">
+                            <div class="SectionHeader_SectionHeader__3nw45">
+                                <div class="SectionHeader_TitleSection__3oktu">
+                                    <h2 class="SectionHeader_TitleText__1pCQw SectionHeader_SectionTitleText__AH_9f" data-testid="section-header-2">Related tracks</h2>
+                                </div>
+                                <a class="SectionHeader_SeeAllLink__2R5TB" href="/opifexofficial/no-light-from-the-sun/recommended">See all</a>
+                            </div>
+                            <ul class="List_VerticalList__2uQYU">
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <a class="Cell_CellLink__3yLVS Cell_Cell__1utfG Cell_Fluid__3Ow9S" aria-label="Lucas The Flow - Breaking Bread" data-testid="cell-entity-link" href="/grandalliancemusic/breaking-bread-lucastheflow">
+                                            <div class="Artwork_RoundedArtwork__124l2 Artwork_Loading__a1D-L Artwork_ArtworkBorder__3rZix Artwork_Medium__1IhSC">
+                                                <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                    <div class="RatioBox_InnerBox__M7kq9">
+                                                        <picture>
+                                                            <img class="Artwork_ArtworkImage__1Ws9- Artwork_RoundedArtwork__124l2" alt="Lucas The Flow - Breaking Bread" src="https://i1.sndcdn.com/artworks-90vraFAsWA97O5jY-mOcy6A-t240x240.jpg" data-testid="actual-image"/>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Information_InfoSection__xy8SA">
+                                                <div class="Information_CellTitle__2KitR">Lucas The Flow - Breaking Bread</div>
+                                                <div class="Information_CellDetails__b5CtI">
+                                                    <div class="Information_CellSubtitle__1mXGx">Grand Alliance Music</div>
+                                                    <div class="Information_CellMetadataWrapper__2k1P0">
+                                                        <div class="Metadata_CellMetadataCollection__2YcjV">
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataIcon__Z0jRK">
+                                                                    <svg viewBox="0 0 24 24" width="14px" height="14px" data-testid="cell-metadata-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                                        <path fill="currentColor" d="m19.653 11.367-11-7A.75.75 0 0 0 7.5 5v14a.75.75 0 0 0 1.153.633l11-7a.75.75 0 0 0 0-1.266Z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">2093</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">3:05</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">9mo</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <a class="Cell_CellLink__3yLVS Cell_Cell__1utfG Cell_Fluid__3Ow9S" aria-label="NO PAIN (Original Mix)" data-testid="cell-entity-link" href="/ragebot/no-pain">
+                                            <div class="Artwork_RoundedArtwork__124l2 Artwork_Loading__a1D-L Artwork_ArtworkBorder__3rZix Artwork_Medium__1IhSC">
+                                                <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                    <div class="RatioBox_InnerBox__M7kq9">
+                                                        <picture>
+                                                            <img class="Artwork_ArtworkImage__1Ws9- Artwork_RoundedArtwork__124l2" alt="NO PAIN (Original Mix)" src="https://i1.sndcdn.com/artworks-KwtbeJ5ikuXCLNQT-DysU8w-t240x240.jpg" data-testid="actual-image"/>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Information_InfoSection__xy8SA">
+                                                <div class="Information_CellTitle__2KitR">NO PAIN (Original Mix)</div>
+                                                <div class="Information_CellDetails__b5CtI">
+                                                    <div class="Information_CellSubtitle__1mXGx">Rage-Bot</div>
+                                                    <div class="Information_CellMetadataWrapper__2k1P0">
+                                                        <div class="Metadata_CellMetadataCollection__2YcjV">
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataIcon__Z0jRK">
+                                                                    <svg viewBox="0 0 24 24" width="14px" height="14px" data-testid="cell-metadata-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                                        <path fill="currentColor" d="m19.653 11.367-11-7A.75.75 0 0 0 7.5 5v14a.75.75 0 0 0 1.153.633l11-7a.75.75 0 0 0 0-1.266Z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">1022</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">3:24</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">4mo</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <a class="Cell_CellLink__3yLVS Cell_Cell__1utfG Cell_Fluid__3Ow9S" aria-label="Aweminus - Sea Shanty (Keylo Flip)" data-testid="cell-entity-link" href="/itzkeylo614/aweminus-sea-shanty-flip-12">
+                                            <div class="Artwork_RoundedArtwork__124l2 Artwork_Loading__a1D-L Artwork_ArtworkBorder__3rZix Artwork_Medium__1IhSC">
+                                                <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                    <div class="RatioBox_InnerBox__M7kq9">
+                                                        <picture>
+                                                            <img class="Artwork_ArtworkImage__1Ws9- Artwork_RoundedArtwork__124l2" alt="Aweminus - Sea Shanty (Keylo Flip)" src="https://i1.sndcdn.com/artworks-iVUqI7q7kQtozKmJ-my5LWg-t240x240.jpg" data-testid="actual-image"/>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Information_InfoSection__xy8SA">
+                                                <div class="Information_CellTitle__2KitR">Aweminus - Sea Shanty (Keylo Flip)</div>
+                                                <div class="Information_CellDetails__b5CtI">
+                                                    <div class="Information_CellSubtitle__1mXGx">Keylo</div>
+                                                    <div class="Information_CellMetadataWrapper__2k1P0">
+                                                        <div class="Metadata_CellMetadataCollection__2YcjV">
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataIcon__Z0jRK">
+                                                                    <svg viewBox="0 0 24 24" width="14px" height="14px" data-testid="cell-metadata-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                                        <path fill="currentColor" d="m19.653 11.367-11-7A.75.75 0 0 0 7.5 5v14a.75.75 0 0 0 1.153.633l11-7a.75.75 0 0 0 0-1.266Z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">2392</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">2:16</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">8mo</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li style="margin-top:16px;margin-left:0;padding-right:0">
+                                    <div data-testid="cell-entity" class="Cell_Cell__1utfG">
+                                        <a class="Cell_CellLink__3yLVS Cell_Cell__1utfG Cell_Fluid__3Ow9S" aria-label="Juice - Almost Perfect (HUSKI BASS 029)" data-testid="cell-entity-link" href="/huskibass/juicealmostperfect">
+                                            <div class="Artwork_RoundedArtwork__124l2 Artwork_Loading__a1D-L Artwork_ArtworkBorder__3rZix Artwork_Medium__1IhSC">
+                                                <div class="RatioBox_OuterBox__3FYNk" style="padding-bottom:100%">
+                                                    <div class="RatioBox_InnerBox__M7kq9">
+                                                        <picture>
+                                                            <img class="Artwork_ArtworkImage__1Ws9- Artwork_RoundedArtwork__124l2" alt="Juice - Almost Perfect (HUSKI BASS 029)" src="https://i1.sndcdn.com/artworks-iVFPAR45QOEVRGzV-nJSCUA-t240x240.jpg" data-testid="actual-image"/>
+                                                        </picture>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Information_InfoSection__xy8SA">
+                                                <div class="Information_CellTitle__2KitR">Juice - Almost Perfect (HUSKI BASS 029)</div>
+                                                <div class="Information_CellDetails__b5CtI">
+                                                    <div class="Information_CellSubtitle__1mXGx">HUSKI (HUSKI BASS) 🐺</div>
+                                                    <div class="Information_CellMetadataWrapper__2k1P0">
+                                                        <div class="Metadata_CellMetadataCollection__2YcjV">
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataIcon__Z0jRK">
+                                                                    <svg viewBox="0 0 24 24" width="14px" height="14px" data-testid="cell-metadata-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                                        <path fill="currentColor" d="m19.653 11.367-11-7A.75.75 0 0 0 7.5 5v14a.75.75 0 0 0 1.153.633l11-7a.75.75 0 0 0 0-1.266Z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">3682</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">3:22</div>
+                                                            </div>
+                                                            <div class="Metadata_CellLabeledMetadata__3s6Tb">
+                                                                <div class="Metadata_MetadataLabel__3GU8Y">1mo</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <footer class="Footer_Footer__2jdsC">
+                            <div class="FooterStoreSection_FooterStoreSection__30zge">
+                                <h1 class="Typography_Heading1__3mh0o">Enjoy the full SoundCloud experience in the app</h1>
+                                <div class="FooterStoreSection_StoreIcon__355f9">
+                                    <a class="StoreLink_StoreLinkButton__3_Qd3" aria-label="Go to Google Play" href="https://play.google.com/store/apps/details?id=com.soundcloud.android&amp;utm_source=https%3A//www.google.com/&amp;utm_content=store_button_footer&amp;utm_medium=mobi&amp;utm_campaign=no_campaign">
+                                        <img data-testid="android-banner" class="StoreLink_StoreLinkBanner__20xNz" src="https://m.sndcdn.com/_next/static/images/English-2c0ad42774f0308a9762d7184607bb73.png" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <nav>
+                                <ul class="FooterLinks_FooterLinksContainer__1HHfn">
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="/charts/top">Charts</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="https://soundcloud.com/company/home">Company</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="/imprint">About us</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="/people/directory/a">Directory</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="https://soundcloud.com/company/newsroom">Newsroom</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" target="_blank" rel="noopener" href="https://jobs.soundcloud.com/">Jobs</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" target="_blank" rel="noopener" href="https://developers.soundcloud.com/">Developers</a>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="/terms-of-use">Legal</a>
+                                    </li>
+                                    <li>
+                                        <button data-testid="footerLink" class="FooterButtonLinkItem_FooterButtonLinkItem__1draD" type="button">Cookie Manager</button>
+                                    </li>
+                                    <li>
+                                        <a class="FooterLinkItem_FooterLinkItem__1lHtR" data-testid="footerLink" href="/pages/copyright">Copyright</a>
+                                    </li>
+                                    <li>
+                                        <ul class="FooterLinks_FooterSocialLinkItemContainer__2ndwS">
+                                            <li class="FooterSocialLinkItem_FooterSocialLinkItemWrapper__3wjpM">
+                                                <a class="FooterSocialLinkItem_FooterSocialLinkItem__2Ot5Y FooterLinks_FooterSocialLinkIcon__rI_S1" href="https://www.instagram.com/soundcloud/" target="_blank" rel="noreferrer">
+                                                    <svg viewBox="0 0 32 32" class="FooterSocialLinkItem_FooterSocialLinkLogo__3xTll" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                                        <title>Follow us on Instagram</title>
+                                                        <g>
+                                                            <path d="M8.62945 16.0244C8.62945 11.9469 11.9468 8.62957 16.0243 8.62957C20.1019 8.62957 23.4192 11.9469 23.4192 16.0244C23.4192 20.1019 20.1019 23.4193 16.0243 23.4193C11.9468 23.4193 8.62945 20.1019 8.62945 16.0244ZM11.5058 16.0244C11.5058 18.52 13.5288 20.543 16.0243 20.543C18.5198 20.543 20.5429 18.5199 20.5429 16.0244C20.5429 13.5289 18.5199 11.5059 16.0243 11.5059C13.5288 11.5059 11.5058 13.5289 11.5058 16.0244Z" fill="currentColor"></path>
+                                                            <path d="M23 10.0001C23.5523 10.0001 24 9.55241 24 9.00012C24 8.44784 23.5523 8.00012 23 8.00012C22.4477 8.00012 22 8.44784 22 9.00012C22 9.55241 22.4477 10.0001 23 10.0001Z" fill="currentColor"></path>
+                                                            <path d="M10.2461 1.72852H21.8026C26.4992 1.72852 30.3202 5.54952 30.3202 10.2462V21.8027C30.3202 26.4994 26.4992 30.3204 21.8026 30.3204H10.2461C5.5494 30.3204 1.72839 26.4994 1.72839 21.8027V10.2462C1.72839 5.54952 5.5494 1.72852 10.2461 1.72852ZM21.8026 27.444C24.9182 27.444 27.4439 24.9183 27.4439 21.8027V10.2462C27.4439 7.13054 24.9182 4.60485 21.8026 4.60485H10.2461C7.13047 4.60485 4.6085 7.13054 4.6085 10.2462V21.8027C4.6085 24.9183 7.13047 27.444 10.2461 27.444H21.8026Z" fill="currentColor"></path>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="FooterSocialLinkItem_FooterSocialLinkItemWrapper__3wjpM">
+                                                <a class="FooterSocialLinkItem_FooterSocialLinkItem__2Ot5Y FooterLinks_FooterSocialLinkIcon__rI_S1" href="https://www.facebook.com/SoundCloud/" target="_blank" rel="noreferrer">
+                                                    <svg viewBox="0 0 32 32" class="FooterSocialLinkItem_FooterSocialLinkLogo__3xTll" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                                        <title>Like our Facebook page</title>
+                                                        <path fill="currentColor" d="M30 16.0856C30 8.30633 23.732 2 16 2C8.26801 2 2 8.30633 2 16.0856C2 23.1161 7.1196 28.9434 13.8125 30V20.1572H10.2578V16.0856H13.8125V12.9824C13.8125 9.45216 15.9026 7.50219 19.1005 7.50219C20.6322 7.50219 22.2344 7.7773 22.2344 7.7773V11.2437H20.469C18.7299 11.2437 18.1875 12.3294 18.1875 13.4434V16.0856H22.0703L21.4496 20.1572H18.1875V30C24.8804 28.9434 30 23.1161 30 16.0856Z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="FooterSocialLinkItem_FooterSocialLinkItemWrapper__3wjpM">
+                                                <a class="FooterSocialLinkItem_FooterSocialLinkItem__2Ot5Y FooterLinks_FooterSocialLinkIcon__rI_S1" href="https://twitter.com/soundcloud" target="_blank" rel="noreferrer">
+                                                    <svg viewBox="0 0 32 32" class="FooterSocialLinkItem_FooterSocialLinkLogo__3xTll" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                                        <title>Follow us on Twitter</title>
+                                                        <path fill="currentColor" d="M30.4451 5.42778C29.2892 6.10833 28.007 6.59444 26.6441 6.85694C25.5543 5.71944 23.9989 5 22.2773 5C18.974 5 16.2948 7.63472 16.2948 10.8917C16.2948 11.3486 16.3473 11.8056 16.4484 12.2333C11.476 11.9903 7.06646 9.6375 4.11508 6.07917C3.60083 6.94444 3.30433 7.95556 3.30433 9.04444C3.30433 11.0861 4.36298 12.8847 5.96796 13.9444C4.98805 13.9153 4.06453 13.6431 3.25767 13.2056V13.2833C3.25767 16.1319 5.32052 18.5139 8.05802 19.0583C7.55446 19.1944 7.0266 19.2625 6.48027 19.2625C6.09433 19.2625 5.72104 19.2236 5.35454 19.1556C6.11766 21.4986 8.32536 23.2 10.9443 23.2486C8.89502 24.8236 6.31695 25.7667 3.5114 25.7667C3.02728 25.7667 2.55288 25.7375 2.08334 25.6889C4.73336 27.3611 7.87915 28.3333 11.2573 28.3333C22.2637 28.3333 28.2811 19.3597 28.2811 11.5722C28.2811 11.3194 28.2773 11.0667 28.2656 10.8139C29.4331 9.97778 30.449 8.94722 31.25 7.76111C30.1778 8.22778 29.0248 8.54861 27.8135 8.68472C29.0501 7.96528 29.9969 6.80833 30.4451 5.42778Z"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="LanguageIndicator_LanguageIndicator__3bG1I">
+                                © 
+                                <!-- -->
+                                2026
+                                <!-- -->
+                                SoundCloud<span data-testid="language-indicator-label">Language:</span>
+                                <button class="BaseButton_BaseButton__RweeB Button_shared_Button__4WBj- Button_Tertiary__3-xll Button_Medium__3vYzd" type="button" data-testid="language-selector-button">
+                                    <span class="Typography_Heading4__2tI40">English (US)</span>
+                                </button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="LayoutWrapper_AppDock__v0yuU">
+                    <nav class="NavBar_NavBarContainer__B_EOB">
+                        <ul class="NavBar_NavBarList__3McZ5">
+                            <li class="NavBar_NavBarLinkItemWrapper__dlEcJ">
+                                <a class="NavBar_NavBarLink__EkA8q" href="/discover">
+                                    <svg class="NavBar_IconDefaultColor__2SEUJ" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                        <title>Home</title>
+                                        <path fill="currentColor" d="M11.532 2.414a.75.75 0 0 1 .936 0l8.5 6.789a.75.75 0 0 1 .282.586V21a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1-.75-.75v-4.5a1.75 1.75 0 1 0-3.5 0V21a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1-.75-.75V9.789a.75.75 0 0 1 .282-.586l8.5-6.789ZM4.25 10.15v10.1h4.5V16.5a3.25 3.25 0 0 1 6.5 0v3.75h4.5v-10.1L12 3.96l-7.75 6.19Z"></path>
+                                    </svg>
+                                    <p class="NavBar_NavBarLinkTitle__1fO0k">Home</p>
+                                </a>
+                            </li>
+                            <li class="NavBar_NavBarLinkItemWrapper__dlEcJ">
+                                <a class="NavBar_NavBarLink__EkA8q" href="/feed">
+                                    <svg class="NavBar_IconDefaultColor__2SEUJ" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                        <title>Feed</title>
+                                        <path fill="currentColor" d="M15.75 3.25h-7.5v1.5h7.5v-1.5ZM6.25 6.25h11.5v1.5H6.25v-1.5ZM4.25 10A.75.75 0 0 1 5 9.25h14a.75.75 0 0 1 .75.75v10a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V10Zm1.5.75v8.5h12.5v-8.5H5.75Z"></path>
+                                    </svg>
+                                    <p class="NavBar_NavBarLinkTitle__1fO0k">Feed</p>
+                                </a>
+                            </li>
+                            <li class="NavBar_NavBarLinkItemWrapper__dlEcJ">
+                                <a class="NavBar_NavBarLink__EkA8q" href="/search">
+                                    <svg class="NavBar_IconDefaultColor__2SEUJ" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                        <title>Search</title>
+                                        <path d="M13 3.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75a9.706 9.706 0 0 0 4.671-1.19l6.977 6.977a2.75 2.75 0 0 0 3.89-3.889l-6.978-6.977A9.706 9.706 0 0 0 22.75 13c0-5.385-4.365-9.75-9.75-9.75ZM4.75 13a8.25 8.25 0 1 1 16.5 0 8.25 8.25 0 0 1-16.5 0Zm15.972 5.954 6.755 6.755a1.25 1.25 0 1 1-1.768 1.768l-6.755-6.755a9.812 9.812 0 0 0 1.768-1.768Z" fill="currentColor"></path>
+                                    </svg>
+                                    <p class="NavBar_NavBarLinkTitle__1fO0k">Search</p>
+                                </a>
+                            </li>
+                            <li class="NavBar_NavBarLinkItemWrapper__dlEcJ">
+                                <a class="NavBar_NavBarLink__EkA8q" href="/you/library">
+                                    <svg class="NavBar_IconDefaultColor__2SEUJ" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                        <title>Library</title>
+                                        <path fill="currentColor" d="M3.25 4A.75.75 0 0 1 4 3.25h3a.75.75 0 0 1 .75.75v16a.75.75 0 0 1-.75.75H4a.75.75 0 0 1-.75-.75V4Zm1.5.75v14.5h1.5V4.75h-1.5ZM9.75 4a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75v16a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1-.75-.75V4Zm1.5.75v14.5h1.5V4.75h-1.5ZM15.563 6.834a.75.75 0 0 0-.53.919l3.364 12.557a.75.75 0 0 0 .919.53l2.898-.776a.75.75 0 0 0 .53-.919L19.379 6.588a.75.75 0 0 0-.918-.53l-2.898.776Zm4.09 12.363L16.675 8.09l1.449-.388L21.1 18.809l-1.449.388Z"></path>
+                                    </svg>
+                                    <p class="NavBar_NavBarLinkTitle__1fO0k">Library</p>
+                                </a>
+                            </li>
+                            <li class="NavBar_NavBarLinkItemWrapper__dlEcJ">
+                                <a class="NavBar_NavBarLink__EkA8q" href="/download">
+                                    <svg class="NavBar_IconDefaultColor__2SEUJ" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+                                        <title>Download</title>
+                                        <path d="m16 23.06-5.53-5.53 1.06-1.06 3.72 3.72V9h1.5v11.19l3.72-3.72 1.06 1.06L16 23.06Z" fill="currentColor"></path>
+                                        <path d="M16 29c7.18 0 13-5.82 13-13S23.18 3 16 3 3 8.82 3 16s5.82 13 13 13Zm0-1.5C9.649 27.5 4.5 22.351 4.5 16S9.649 4.5 16 4.5 27.5 9.649 27.5 16 22.351 27.5 16 27.5Z" fill="currentColor"></path>
+                                    </svg>
+                                    <p class="NavBar_NavBarLinkTitle__1fO0k">Download</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div data-testid="div-gpt-ad-interstitial" id="div-gpt-ad-interstitial"></div>
+            <div class="Modal_ModalOverlay__Z9tIa" data-testid="modal-overlay" role="dialog" aria-modal="true">
+                <section class="Modal_Modal__17Lu7 Modal_RoundedTopCorners__15_8v" data-testid="modal">
+                    <div id="modal_body" class=""></div>
+                </section>
+            </div>
+            <div class="Tooltip_TooltipOverlay__3xO1-" data-testid="tooltip-overlay" role="dialog" style="height:0" aria-modal="true">
+                <section class="Tooltip_Tooltip__134N3" data-testid="tooltip">
+                    <div id="tooltip_body"></div>
+                </section>
+            </div>
+        </div>
+        <script id="__NEXT_DATA__" type="application/json">
+            {"props":{"pageProps":{"trackUrn":"soundcloud:tracks:2252247356","userUrn":"soundcloud:users:62504729","shareAccess":null,"pageInfo":{"level":"tracks:main","pageUrn":"soundcloud:tracks:2252247356","statusCode":200},"initialStoreState":{"entities":{"playlists":{},"systemPlaylists":{},"tracks":{"soundcloud:tracks:2252247356":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-large.jpg","caption":null,"commentable":true,"comment_count":14,"created_at":"2026-01-22T16:04:14Z","description":"Original Lyrics + Music Wrote and Produced by OPIFEX\n\nLyrics\n\nCold, tired and mean.\nYou say I'm wrong\nI guess we'll see.\nSkies will break,\nI'll wait.\nI know you'll come around to me.\nIn time,\nIn time,\n\n[Chorus]\nGot no light from the sun,\nI saw you lookin' right at me,\nAnd it don't hurt bad\nI'm sure,\n'Cause the world is cold, tired and mean,\nYou say I'm wrong\nI guess we'll see,\nSkies will break,\nI'll wait,\nI know you'll come around to me,\nIn time…\nIn time…\n\n\nAll Rights Reserved. Copyright 2026. OPIFEX.","downloadable":true,"download_count":2,"duration":115908,"full_duration":115905,"embeddable_by":"all","genre":"Electronic","has_downloads_left":true,"id":2252247356,"kind":"track","label_name":"","last_modified":"2026-01-29T14:52:55Z","license":"all-rights-reserved","likes_count":307,"permalink":"no-light-from-the-sun","permalink_url":"https://soundcloud.com/opifexofficial/no-light-from-the-sun","playback_count":932,"public":true,"publisher_metadata":{"id":2252247356,"urn":"soundcloud:tracks:2252247356","artist":"OPIFEX","contains_music":true,"isrc":"QT6Y32542931","explicit":false,"writer_composer":"Brandan M Rutigliano"},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":25,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"No Light From The Sun","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2252247356","urn":"soundcloud:tracks:2252247356","user_id":62504729,"visuals":{"urn":"soundcloud:tracks:2252247356","enabled":true,"visuals":[{"urn":"soundcloud:visuals:258840711","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-xQmnHfhqkYtb2DxO-y8OKbQ-original.jpg"}],"tracking":null},"display_date":"2026-01-23T20:34:15Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2252247356/e9ba9647-b35f-48fb-a72a-8f3e81fd765a/stream/hls","preset":"aac_160k","duration":115908,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2252247356/4ad48fce-fb90-4073-a703-3bfae58958bb/stream/hls","preset":"aac_96k","duration":115908,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2252247356/019a3793-541a-4e53-a6e0-d832934ecca9/stream/hls","preset":"abr_sq","duration":115908,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2252247356/35ed7e03-f98a-4e03-ae87-702e172043f7/stream/hls","preset":"mp3_1_0","duration":115905,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2252247356/35ed7e03-f98a-4e03-ae87-702e172043f7/stream/progressive","preset":"mp3_1_0","duration":115905,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2252247356","station_permalink":"track-stations:2252247356","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6ImJlMDk0OWViLTBkMmMtNGNjYy05ZTMxLTkxYTZkNGI1ODE5MSIsImlhdCI6MTc4OTY1NTkxNH0.9IfS7gb_RR6EcI_MOMaWHNk_d7XroGupw_FG4oVi2c8","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:62504729","waveformKey":"J8n3WOHME8MO_m.json","tags":["Indie","Downtempo","Alternative","Electronic","Breakbeat","Jungle","Drum and Bass","Bass Music","Heavy","Emotional","No Sun","No Light","In Time","Opifex","productions","Dance \u0026 EDM","Electric Guitar","Acoustic Guitar","acoustic","Electronica","Vocal","Vocal Dubstep","2 step","Electronic"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2219063627":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-90vraFAsWA97O5jY-mOcy6A-large.png","caption":null,"commentable":true,"comment_count":10,"created_at":"2025-11-26T01:38:33Z","description":"The debut EP on GAM from @lucastheflow\n\nGrab it here: https://hypeddit.com/lucas\n\n“Breaking Bread” brings the whole EP back to center\n Grounded, groovy, human. \n\nA moment of connection after the noise, like sitting down with your people after a long day.\n\nDeep bass.\nOpen space.\nA quiet kind of paradise.\n\nReleased 12/5/2025 on Grand Alliance Music.","downloadable":false,"download_count":0,"duration":185186,"full_duration":185182,"embeddable_by":"all","genre":"Electronic","has_downloads_left":false,"id":2219063627,"kind":"track","label_name":"Grand Alliance Music","last_modified":"2026-05-29T07:04:53Z","license":"all-rights-reserved","likes_count":274,"permalink":"breaking-bread-lucastheflow","permalink_url":"https://soundcloud.com/grandalliancemusic/breaking-bread-lucastheflow","playback_count":2093,"public":true,"publisher_metadata":{"id":2219063627,"urn":"soundcloud:tracks:2219063627","artist":"Grand Alliance Music","album_title":"Eden EP","contains_music":true,"publisher":"Grand Jams Music","upc_or_ean":"199502846008","isrc":"QZZ8B2559601","explicit":false,"p_line":"2025 Grand Alliance Music","p_line_for_display":"℗ 2025 Grand Alliance Music","writer_composer":"Lucas Improgna McKeown","release_title":"Lucas The Flow - Breaking Bread"},"purchase_title":"DL/Stream/Support","purchase_url":"https://hypeddit.com/lucas","release_date":"2025-12-05T00:00:00Z","reposts_count":26,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"Lucas The Flow - Breaking Bread","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2219063627","urn":"soundcloud:tracks:2219063627","user_id":510409467,"visuals":{"urn":"soundcloud:tracks:2219063627","enabled":true,"visuals":[{"urn":"soundcloud:visuals:254659596","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-X2vuBy9bY1GA6loM-GJYmGg-original.jpg"}],"tracking":null},"display_date":"2025-12-05T01:12:29Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2219063627/5514e98a-a1d0-40e2-bc95-48b12c13442a/stream/hls","preset":"aac_160k","duration":185186,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2219063627/b2cf4ead-c264-4200-8e01-f33093aca6d5/stream/hls","preset":"aac_96k","duration":185186,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2219063627/2ca07eda-8e11-4186-965e-14f73935579a/stream/hls","preset":"abr_sq","duration":185186,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2219063627/1aaf17cf-a673-42c3-b8e1-6d3eb49fae87/stream/hls","preset":"mp3_1_0","duration":185182,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2219063627/1aaf17cf-a673-42c3-b8e1-6d3eb49fae87/stream/progressive","preset":"mp3_1_0","duration":185182,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2219063627","station_permalink":"track-stations:2219063627","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6IjVkOGZmM2NlLTc2NzgtNGRjNS1hMzcxLWEwZTljYTQ1NjI4ZSIsImlhdCI6MTc4OTY1NTkxNH0.OyaXkDfxUYlBPm51Z30SLg1H0tpj2ftLDdyoJxoc-fI","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:510409467","waveformKey":"gOjnv6uC8b6z_m.json","tags":["Dance \u0026 EDM","Dubstep","Electronic","Electronic"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2313034565":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-KwtbeJ5ikuXCLNQT-DysU8w-large.jpg","caption":null,"commentable":true,"comment_count":16,"created_at":"2026-05-01T22:15:25Z","description":"HELP BROSTEP I'M STUCK IN THE DRYER AGAIN!","downloadable":false,"download_count":0,"duration":204846,"full_duration":204800,"embeddable_by":"all","genre":"Dubstep","has_downloads_left":false,"id":2313034565,"kind":"track","label_name":"","last_modified":"2026-08-09T16:05:01Z","license":"all-rights-reserved","likes_count":210,"permalink":"no-pain","permalink_url":"https://soundcloud.com/ragebot/no-pain","playback_count":1022,"public":true,"publisher_metadata":{"id":2313034565,"urn":"soundcloud:tracks:2313034565","artist":"Rage-Bot"},"purchase_title":null,"purchase_url":null,"release_date":"2026-08-07T00:00:00Z","reposts_count":14,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"NO PAIN (Original Mix)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2313034565","urn":"soundcloud:tracks:2313034565","user_id":2334763,"visuals":{"urn":"soundcloud:tracks:2313034565","enabled":true,"visuals":[{"urn":"soundcloud:visuals:272268534","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-ps7uY2ZXBF1CV8cU-PaEq9A-original.jpg"}],"tracking":null},"display_date":"2026-08-09T04:33:34Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2313034565/92d82a19-7e5f-464f-bbc9-979c5131b4e7/stream/hls","preset":"aac_160k","duration":204846,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2313034565/c32f7412-7e77-498d-b116-10faf8fc261c/stream/hls","preset":"aac_96k","duration":204846,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2313034565/a749f836-f933-4f27-b0a1-2c82a81a97af/stream/hls","preset":"abr_sq","duration":204846,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2313034565/ca9d54bd-8c1e-4779-8fbb-32df9a28f95b/stream/hls","preset":"mp3_1_0","duration":204800,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2313034565/ca9d54bd-8c1e-4779-8fbb-32df9a28f95b/stream/progressive","preset":"mp3_1_0","duration":204800,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2313034565","station_permalink":"track-stations:2313034565","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6IjI1YzYyNTAyLTY1MTUtNGMwNC1hOWNlLWVjMTI2YTcxNmU3MSIsImlhdCI6MTc4OTY1NTkxNH0.MDtdwVsKQx2RteW9hrMsiTIJLqSk6lxhPD48rlkUHrg","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:2334763","waveformKey":"omVj5q5zBCOP_m.json","tags":["Brostep","Dubstep","Rage-Bot","No Pain","Dubstep"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2246780324":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-iVUqI7q7kQtozKmJ-my5LWg-large.jpg","caption":null,"commentable":true,"comment_count":5,"created_at":"2026-01-13T15:58:06Z","description":"","downloadable":false,"download_count":0,"duration":136184,"full_duration":136176,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":2246780324,"kind":"track","label_name":"","last_modified":"2026-08-12T15:06:02Z","license":"all-rights-reserved","likes_count":302,"permalink":"aweminus-sea-shanty-flip-12","permalink_url":"https://soundcloud.com/itzkeylo614/aweminus-sea-shanty-flip-12","playback_count":2392,"public":true,"publisher_metadata":{"id":2246780324,"urn":"soundcloud:tracks:2246780324","artist":"Keylo","contains_music":true,"publisher":"","isrc":"GBLFP1612345","explicit":false},"purchase_title":null,"purchase_url":"https://keylo614.bandcamp.com/track/aweminus-sea-shanty-keylo-flip","release_date":null,"reposts_count":8,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"Aweminus - Sea Shanty (Keylo Flip)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2246780324","urn":"soundcloud:tracks:2246780324","user_id":386141213,"visuals":{"urn":"soundcloud:tracks:2246780324","enabled":true,"visuals":[{"urn":"soundcloud:visuals:265168272","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-VNDVAyUo5OlDULxQ-mpomaw-original.jpg"}],"tracking":null},"display_date":"2026-08-07T16:00:09Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2246780324/65512f07-2d2b-40e9-bba6-7196ecbf6931/stream/hls","preset":"aac_160k","duration":136184,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2246780324/a1535921-2d24-4b48-a24c-5fee812bcea2/stream/hls","preset":"aac_96k","duration":136184,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2246780324/59bbb539-3bb5-4e71-9d8a-f9050b105528/stream/hls","preset":"abr_sq","duration":136184,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2246780324/869ad146-c380-41a6-84e2-ecb3308a769f/stream/hls","preset":"mp3_1_0","duration":136176,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2246780324/869ad146-c380-41a6-84e2-ecb3308a769f/stream/progressive","preset":"mp3_1_0","duration":136176,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2246780324","station_permalink":"track-stations:2246780324","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6IjAxMGE0ZDJjLTQ3NDYtNDc3My04M2FhLTEzMWFkMDlmZmRlYiIsImlhdCI6MTc4OTY1NTkxNH0.KctTQ6w88lz4VXFGIqsfKeTa0DZ3J7vl2W7QY3jIchg","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:386141213","waveformKey":"kXdOk6HF7yEG_m.json","tags":[""],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2367529886":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-iVFPAR45QOEVRGzV-nJSCUA-large.jpg","caption":"This track is 'almost perfect', the only thing missing is you blasting it at full volume in your car 🚗💨","commentable":true,"comment_count":39,"created_at":"2026-07-25T00:15:57Z","description":"The DnB gods have spoken and they gave us Juice's brand new Another Yesterday EP. 3 tracks of pure emotional dancefloor weapons. Skipping any track on this EP is a direct offense punishable by lifetime banishment from the dancefloor. Stream it August 13th. Don't play with your life fam and cop those free downloads. We got Dimension, Wilkinson, Hybrids Minds and more on speed dial, try us.\n\nSTREAM: https://hypeddit.com/huskibass/juiceanotheryesterday\nFREE DL: https://sublair.com/download/juice-almost-perfect-huski-bass-029\n\nWANT A FREE MONTH OF SC PRO?\nhttps://invite.soundcloud.com/2sjoh!904b72c24d!a\n\nFOLLOW MY SPOTIFY PLAYLIST: https://bit.ly/HUSKIUSB\nSUBMIT TO MY SPOTIFY PLAYLIST: https://bit.ly/submit2huskiplaylist\n\nGET AMAZING SMARTLINK UPGRADE: https://solo.to/inv/huskibass\n\nFOLLOW JUICE\nhttps://soundcloud.com/juicewubz\n\nFOLLOW HUSKI BASS\nhttps://soundcloud.com/huskibass\nhttps://solo.to/huskibass\nhttps://twitter.com/huskibass\nhttps://facebook.com/huskibass\nhttps://instagram.com/huskibass","downloadable":false,"download_count":0,"duration":202372,"full_duration":202325,"embeddable_by":"all","genre":"Drum \u0026 Bass","has_downloads_left":false,"id":2367529886,"kind":"track","label_name":"HUSKI BASS","last_modified":"2026-08-21T17:06:27Z","license":"all-rights-reserved","likes_count":463,"permalink":"juicealmostperfect","permalink_url":"https://soundcloud.com/huskibass/juicealmostperfect","playback_count":3682,"public":true,"publisher_metadata":{"id":2367529886,"urn":"soundcloud:tracks:2367529886","artist":"Juíce","album_title":"Another Yesterday","contains_music":true,"publisher":"HUSKI BASS","isrc":"QZHZD2674422","explicit":false,"p_line":"2026 HUSKI BASS","p_line_for_display":"℗ 2026 HUSKI BASS","writer_composer":"Julian Alec Vargas","release_title":"Almost Perfect"},"purchase_title":"FREE SUBLAIR DL","purchase_url":"https://hypeddit.com/huskibass/juiceanotheryesterday","release_date":"2026-08-06T00:00:00Z","reposts_count":81,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"Juice - Almost Perfect (HUSKI BASS 029)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2367529886","urn":"soundcloud:tracks:2367529886","user_id":215013822,"visuals":{"urn":"soundcloud:tracks:2367529886","enabled":true,"visuals":[{"urn":"soundcloud:visuals:271373706","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-QHuihy8LWzARL2gr-ovaL3A-original.jpg"}],"tracking":null},"display_date":"2026-08-13T19:00:09Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529886/bc7caf3b-c15f-4439-a122-b9661462b5b1/stream/hls","preset":"aac_160k","duration":202372,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529886/deb1b348-5aad-4772-b738-d0f8a5e77347/stream/hls","preset":"aac_96k","duration":202372,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529886/58a29d60-608c-4774-8c51-4345b0a0602c/stream/hls","preset":"abr_sq","duration":202372,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529886/04ff65f5-ec78-4342-9704-5094fb1b1887/stream/hls","preset":"mp3_1_0","duration":202325,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529886/04ff65f5-ec78-4342-9704-5094fb1b1887/stream/progressive","preset":"mp3_1_0","duration":202325,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2367529886","station_permalink":"track-stations:2367529886","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6ImFhMjAyNmE0LTgxYzctNDNjZS1iOTc4LTdkODZmNjA0NmExYiIsImlhdCI6MTc4OTY1NTkxNH0.F_3jV7wGlIXRwrT-UPWMcbenkFcaZZTcWoN9CzQVnn4","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:215013822","waveformKey":"dlyZ6o62vHoS_m.json","tags":["Bass Music","EDM 2026","neurofunk","liquid dnb","liquid drum and bass","dnb","Drum \u0026 Bass"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2377322306":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-AWXvU4mAgoXszzj0-zwUuTg-large.jpg","caption":null,"commentable":true,"comment_count":17,"created_at":"2026-08-07T11:42:04Z","description":"https://soundcloud.com/v1xmusic\nhttps://www.instagram.com/v_1xmusic\n\nhttps://www.soundcloud.com/suitsandsnares\nhttps://www.instagram.com/suits_snares\nhttps://www.facebook.com/SuitsandSnares\nhttps://www.instagram.com/jobz______\n\nhttps://open.spotify.com/playlist/4Q2HZtkqIVpELrtxaJQmRE?si=A3U5fOaRQKu-WIsS_BrfkA","downloadable":false,"download_count":0,"duration":178332,"full_duration":178285,"embeddable_by":"all","genre":"riddim","has_downloads_left":false,"id":2377322306,"kind":"track","label_name":"","last_modified":"2026-08-27T07:36:21Z","license":"all-rights-reserved","likes_count":827,"permalink":"v-1x-4i","permalink_url":"https://soundcloud.com/suitsandsnares/v-1x-4i","playback_count":4746,"public":true,"publisher_metadata":{"id":2377322306,"urn":"soundcloud:tracks:2377322306","artist":"Suits \u0026 Snares","contains_music":true,"explicit":false},"purchase_title":"Free Download","purchase_url":"https://www.toneliftdsp.com/4i","release_date":"2026-08-10T00:00:00Z","reposts_count":70,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"V-1X - 4i  (Free Download)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2377322306","urn":"soundcloud:tracks:2377322306","user_id":325071253,"visuals":{"urn":"soundcloud:tracks:2377322306","enabled":true,"visuals":[{"urn":"soundcloud:visuals:272327382","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-B1MDgaJgqZoERzJl-rmTBBw-original.jpg"}],"tracking":null},"display_date":"2026-08-07T11:42:04Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377322306/8e576bcb-013d-4d13-8cee-ef85df542a9e/stream/hls","preset":"aac_160k","duration":178332,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377322306/08dafa80-d027-40fe-a61f-2696a8c1e64f/stream/hls","preset":"aac_96k","duration":178332,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377322306/dba69392-c2d8-4d7b-b369-0b6c41837262/stream/hls","preset":"abr_sq","duration":178332,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377322306/ad0b84af-f415-4b8b-bc68-dfb391118219/stream/hls","preset":"mp3_1_0","duration":178285,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377322306/ad0b84af-f415-4b8b-bc68-dfb391118219/stream/progressive","preset":"mp3_1_0","duration":178285,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2377322306","station_permalink":"track-stations:2377322306","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6IjNiN2JmMGIxLTM3ZjgtNDg2Ni1hY2IxLTViYmM2ZjQ2NTBlOSIsImlhdCI6MTc4OTY1NTkxNH0.C_TO_Fn3cYkryjv7m5-5r_4ZQsbgKgOI4Z4AYrf-A14","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:325071253","waveformKey":"Unqe3dHjpU67_m.json","tags":["dubstep","riddim"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2386377117":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-YyQLx35IlYqAzc0e-dUzwWA-large.jpg","caption":null,"commentable":true,"comment_count":13,"created_at":"2026-08-22T18:30:22Z","description":"","downloadable":false,"download_count":0,"duration":111443,"full_duration":111397,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":2386377117,"kind":"track","label_name":"","last_modified":"2026-08-22T22:57:28Z","license":"all-rights-reserved","likes_count":461,"permalink":"playa-1","permalink_url":"https://soundcloud.com/sindradubs/playa-1","playback_count":1163,"public":true,"publisher_metadata":{"id":2386377117,"urn":"soundcloud:tracks:2386377117","artist":"SINDRA","explicit":false},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":135,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"PLAYA","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2386377117","urn":"soundcloud:tracks:2386377117","user_id":59657514,"visuals":null,"display_date":"2026-08-22T22:57:28Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2386377117/e7c5f19e-68da-409e-9f97-870ee3b03bcc/stream/hls","preset":"aac_160k","duration":111443,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2386377117/037e58d6-6f47-4871-80ed-add61d143536/stream/hls","preset":"aac_96k","duration":111443,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2386377117/ad15d81e-e9a0-442b-b0d3-57c2f394ba48/stream/hls","preset":"abr_sq","duration":111443,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2386377117/3fa3ab0c-edbe-4e96-a7c7-8a47bcadf7b5/stream/hls","preset":"mp3_1_0","duration":111397,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2386377117/3fa3ab0c-edbe-4e96-a7c7-8a47bcadf7b5/stream/progressive","preset":"mp3_1_0","duration":111397,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2386377117","station_permalink":"track-stations:2386377117","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6IjA4ZTA4NDZlLWNlMDUtNDQ2MC1hMGI4LWZiNTZiMWQzYWE5MSIsImlhdCI6MTc4OTY1NTkxNH0.W-plbvr5tRs57Ecp8Cn_Mu5pGUbtCHKEva0av_XOB5c","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:59657514","waveformKey":"TR0LcbzTOp7w_m.json","tags":[""],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2367529883":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-iVFPAR45QOEVRGzV-nJSCUA-large.jpg","caption":"Pressing skip on this is a direct insult to the liquid dnb gods. Don't risk it ⚡️🎧","commentable":true,"comment_count":20,"created_at":"2026-07-25T00:15:57Z","description":"The DnB gods have spoken and they gave us Juice's brand new Another Yesterday EP. 3 tracks of pure emotional dancefloor weapons. Skipping any track on this EP is a direct offense punishable by lifetime banishment from the dancefloor. Stream it August 13th. Don't play with your life fam and cop those free downloads. We got Dimension, Wilkinson, Hybrids Minds and more on speed dial, try us.\n\nSTREAM: https://hypeddit.com/huskibass/juicealmostyesterday\nFREE DL: https://sublair.com/download/juice-silhouette-huski-bass-029\n\nWANT A FREE MONTH OF SC PRO?\nhttps://invite.soundcloud.com/2sjoh!904b72c24d!a\n\nFOLLOW MY SPOTIFY PLAYLIST: https://bit.ly/HUSKIUSB\nSUBMIT TO MY SPOTIFY PLAYLIST: https://bit.ly/submit2huskiplaylist\n\nGET AMAZING SMARTLINK UPGRADE: https://solo.to/inv/huskibass\n\nFOLLOW JUICE\nhttps://soundcloud.com/juicewubz\n\nFOLLOW HUSKI BASS\nhttps://soundcloud.com/huskibass\nhttps://solo.to/huskibass\nhttps://twitter.com/huskibass\nhttps://facebook.com/huskibass\nhttps://instagram.com/huskibass","downloadable":false,"download_count":0,"duration":211811,"full_duration":211764,"embeddable_by":"all","genre":"Drum \u0026 Bass","has_downloads_left":false,"id":2367529883,"kind":"track","label_name":"HUSKI BASS","last_modified":"2026-08-20T00:33:02Z","license":"all-rights-reserved","likes_count":383,"permalink":"juicesilhouette","permalink_url":"https://soundcloud.com/huskibass/juicesilhouette","playback_count":3031,"public":true,"publisher_metadata":{"id":2367529883,"urn":"soundcloud:tracks:2367529883","artist":"Juíce","album_title":"Another Yesterday","contains_music":true,"publisher":"HUSKI  BASS","isrc":"QZKDK2693967","explicit":false,"p_line":"2026 HUSKI BASS","p_line_for_display":"℗ 2026 HUSKI BASS","writer_composer":"Julian Alec Vargas","release_title":"Silhouette"},"purchase_title":"FREE SUBLAIR DL","purchase_url":"https://sublair.com/download/juice-silhouette-huski-bass-029","release_date":null,"reposts_count":41,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"Juice - Silhouette (HUSKI BASS 029)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2367529883","urn":"soundcloud:tracks:2367529883","user_id":215013822,"visuals":{"urn":"soundcloud:tracks:2367529883","enabled":true,"visuals":[{"urn":"soundcloud:visuals:271373721","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-QHuihy8LWzARL2gr-ovaL3A-original.jpg"}],"tracking":null},"display_date":"2026-08-13T19:00:09Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529883/506ac0cf-34a1-46ca-a692-ee8de9a31400/stream/hls","preset":"aac_160k","duration":211811,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529883/4460adb1-8d59-4643-9bf4-f723ad4d30e5/stream/hls","preset":"aac_96k","duration":211811,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529883/d43d2f7b-1876-48c8-93d7-0a484ab16843/stream/hls","preset":"abr_sq","duration":211811,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529883/f68b09a8-dd0c-4a26-bfcf-02f35e92cbf4/stream/hls","preset":"mp3_1_0","duration":211764,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2367529883/f68b09a8-dd0c-4a26-bfcf-02f35e92cbf4/stream/progressive","preset":"mp3_1_0","duration":211764,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2367529883","station_permalink":"track-stations:2367529883","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6IjViOTgzYzRhLWIyNjYtNDFlNC1hYzk5LWE5MDkyYWRkYjQ2NSIsImlhdCI6MTc4OTY1NTkxNH0.ptRB-rh9Bp-DMl6jOjAB2tMgY295vL9F4dPOW5UBmYg","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:215013822","waveformKey":"ed9lK0GwkmvW_m.json","tags":["Bass Music","EDM 2026","neurofunk","liquid dnb","liquid drum and bass","dnb","Drum \u0026 Bass"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2377326470":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-AWXvU4mAgoXszzj0-zwUuTg-large.jpg","caption":null,"commentable":true,"comment_count":10,"created_at":"2026-08-07T11:55:00Z","description":"https://soundcloud.com/v1xmusic\nhttps://www.instagram.com/v_1xmusic\n\nhttps://www.soundcloud.com/suitsandsnares\nhttps://www.instagram.com/suits_snares\nhttps://www.facebook.com/SuitsandSnares\nhttps://www.instagram.com/jobz______\n\nhttps://open.spotify.com/playlist/4Q2HZtkqIVpELrtxaJQmRE?si=A3U5fOaRQKu-WIsS_BrfkA","downloadable":false,"download_count":0,"duration":158942,"full_duration":158896,"embeddable_by":"all","genre":"Riddim","has_downloads_left":false,"id":2377326470,"kind":"track","label_name":"","last_modified":"2026-08-27T07:35:47Z","license":"all-rights-reserved","likes_count":647,"permalink":"0nfree","permalink_url":"https://soundcloud.com/suitsandsnares/0nfree","playback_count":3320,"public":true,"publisher_metadata":{"id":2377326470,"urn":"soundcloud:tracks:2377326470","artist":"Suits \u0026 Snares","contains_music":true,"explicit":false},"purchase_title":"Free Download","purchase_url":"https://www.toneliftdsp.com/0n-dl-gate.html","release_date":null,"reposts_count":103,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"V-1X - 0n (Free Download)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2377326470","urn":"soundcloud:tracks:2377326470","user_id":325071253,"visuals":{"urn":"soundcloud:tracks:2377326470","enabled":true,"visuals":[{"urn":"soundcloud:visuals:272327397","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-B1MDgaJgqZoERzJl-rmTBBw-original.jpg"}],"tracking":null},"display_date":"2026-08-07T11:55:00Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377326470/1964c939-5b73-4cae-a89d-aabed1c50724/stream/hls","preset":"aac_160k","duration":158942,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377326470/6e960860-d4c9-44bd-8744-e8c9c18ba2fb/stream/hls","preset":"aac_96k","duration":158942,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377326470/73988496-5493-498d-831d-994573a30ce8/stream/hls","preset":"abr_sq","duration":158942,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377326470/375e1cbe-05c8-4c85-b2a1-cc3f0a2fb67f/stream/hls","preset":"mp3_1_0","duration":158896,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2377326470/375e1cbe-05c8-4c85-b2a1-cc3f0a2fb67f/stream/progressive","preset":"mp3_1_0","duration":158896,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2377326470","station_permalink":"track-stations:2377326470","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6ImI0YzFjMDQxLTdkZGItNDc5ZS05MzU1LTFmYTVmNjA5MDBjNSIsImlhdCI6MTc4OTY1NTkxNH0.pV8UDGRdg4h2B2vcDEnRJKi-45R2_dgQlNue-IwbCgU","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:325071253","waveformKey":"Ocjdbgsak2Nz_m.json","tags":["dubstep","Edm","Riddim"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2376917573":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-aSlvtS6G0Ea0EZSE-D14sIg-large.jpg","caption":null,"commentable":true,"comment_count":39,"created_at":"2026-08-06T19:15:39Z","description":"GO DROP MY DAWG LEN3X A FOLLOW HE IS CRACKED!!! https://on.soundcloud.com/2jsBiXXHLdtoCpVTcW","downloadable":true,"download_count":37,"duration":205760,"full_duration":205714,"embeddable_by":"all","genre":"Dubstep","has_downloads_left":true,"id":2376917573,"kind":"track","label_name":"","last_modified":"2026-08-14T02:51:22Z","license":"all-rights-reserved","likes_count":621,"permalink":"mastered-odiax-burn-ft-lenex","permalink_url":"https://soundcloud.com/odiax/mastered-odiax-burn-ft-lenex","playback_count":11462,"public":true,"publisher_metadata":{"id":2376917573,"urn":"soundcloud:tracks:2376917573","publisher":"","isrc":"QZMHK2647364","explicit":false,"p_line":"℗ ","p_line_for_display":"℗ "},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":40,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"ODIAX - BURN (FT. LEN3X) (FREE DL)","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2376917573","urn":"soundcloud:tracks:2376917573","user_id":408650910,"visuals":{"urn":"soundcloud:tracks:2376917573","enabled":true,"visuals":[{"urn":"soundcloud:visuals:272315226","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-va2NeSSDXTvyuDsR-2IT5pw-original.jpg"}],"tracking":null},"display_date":"2026-08-11T06:00:09Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2376917573/ee06c8ea-4d76-4627-97da-404430e19e76/stream/hls","preset":"aac_160k","duration":205760,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2376917573/1d831f68-c7bb-4f10-a6d7-d9894d4be54f/stream/hls","preset":"aac_96k","duration":205760,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2376917573/b9e69d2e-c5d9-4f47-b958-d0fe5489dc25/stream/hls","preset":"abr_sq","duration":205760,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2376917573/4de6ee09-4930-4497-88e6-bf4ee9f940b0/stream/hls","preset":"mp3_1_0","duration":205714,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2376917573/4de6ee09-4930-4497-88e6-bf4ee9f940b0/stream/progressive","preset":"mp3_1_0","duration":205714,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2376917573","station_permalink":"track-stations:2376917573","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6ImYyMjkzY2MwLTFiODItNGUyNi1iNWVjLWRkOTE4NjEwODVkMiIsImlhdCI6MTc4OTY1NTkxNH0.d38DwHNqfeptvMUAwKtmDT6clHBE7z4Dl80OkWPX8eo","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:408650910","waveformKey":"L99rIa9pJqZZ_m.json","tags":["Riddim","tearout","headbanger","Dubstep"],"dataRepresentation":2,"category":"Music"}},"soundcloud:tracks:2365067351":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"artwork_url":"https://i1.sndcdn.com/artworks-bTLiG8l9EaB0bOF1-7gCFYw-large.jpg","caption":null,"commentable":true,"comment_count":34,"created_at":"2026-07-21T08:59:51Z","description":"","downloadable":false,"download_count":0,"duration":125116,"full_duration":125070,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":2365067351,"kind":"track","label_name":"","last_modified":"2026-07-21T09:24:38Z","license":"all-rights-reserved","likes_count":402,"permalink":"squirrely-bass-miownize-involucre-1","permalink_url":"https://soundcloud.com/squirrely-bass/squirrely-bass-miownize-involucre-1","playback_count":3863,"public":true,"publisher_metadata":{"id":2365067351,"urn":"soundcloud:tracks:2365067351","artist":"Squirrely Bass","publisher":"","explicit":false},"purchase_title":"BUY","purchase_url":"https://ipln.io/ijVVr6Gi","release_date":"2026-07-21T00:00:00Z","reposts_count":76,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"title":"Squirrely Bass  \u0026 MioWnize- Involucre","uri":"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2365067351","urn":"soundcloud:tracks:2365067351","user_id":33967281,"visuals":null,"display_date":"2026-07-21T08:59:51Z","media":{"transcodings":[{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2365067351/c7b1a868-7e22-4016-a77f-075e49c1a0bf/stream/hls","preset":"aac_160k","duration":125116,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2365067351/f6692c60-cd1c-48f5-91d2-d3d9820218c2/stream/hls","preset":"aac_96k","duration":125116,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mp4; codecs=\"mp4a.40.2\""},"quality":"lq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2365067351/a2244645-e892-44a2-a290-1b0bf2b5371f/stream/hls","preset":"abr_sq","duration":125116,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpegurl"},"quality":"sq","is_legacy_transcoding":false},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2365067351/1afa7f53-b17a-4240-acf3-59fc01b68d56/stream/hls","preset":"mp3_1_0","duration":125070,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true},{"url":"https://api-mobi.soundcloud.com/media/soundcloud:tracks:2365067351/1afa7f53-b17a-4240-acf3-59fc01b68d56/stream/progressive","preset":"mp3_1_0","duration":125070,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq","is_legacy_transcoding":true}]},"station_urn":"soundcloud:system-playlists:track-stations:2365067351","station_permalink":"track-stations:2365067351","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJJRCIsInN1YiI6IiIsInJpZCI6Ijg3YmEzZjZiLTM4MzAtNDc4MC1iN2NkLTBjZWEwNWMwMjRmZCIsImlhdCI6MTc4OTY1NTkxNH0.sFaOZ0BtI1OojnmH2_0gj11UB8dcO-jfNF9vTNqyRrE","monetization_model":"NOT_APPLICABLE","policy":"ALLOW","user":"soundcloud:users:33967281","waveformKey":"ODdDtaHp0P1M_m.json","tags":["Dubstep","Bass music","Jazz fusion","Future Bass","160","140","Trap",""],"dataRepresentation":2,"category":"Music"}}},"trackShares":{"/opifexofficial/no-light-from-the-sun":{"status":"mobi/remoteDataStatus/SUCCESS","data":null}},"relatedTracksCollections":{"soundcloud:tracks:2252247356":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"collection":["soundcloud:tracks:2219063627","soundcloud:tracks:2313034565","soundcloud:tracks:2246780324","soundcloud:tracks:2367529886","soundcloud:tracks:2377322306","soundcloud:tracks:2386377117","soundcloud:tracks:2367529883","soundcloud:tracks:2377326470","soundcloud:tracks:2376917573","soundcloud:tracks:2365067351"],"next_href":"https://api-mobi.soundcloud.com/tracks/2252247356/related?anon_user_id=146112-4935-215006-760487\u0026app_version=1789574505\u0026client_id=KKzJxmw11tYpCs6T24P4uUYhqmjalG6M\u0026offset=2\u0026limit=10","query_urn":"soundcloud:similarsounds:b09628f3b3fb469ebdf216f2bd204b8d","variant":"sim_sounds_v3","id":"soundcloud:tracks:2252247356","fetchingMore":false}}},"users":{"soundcloud:users:62504729":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-grwiCDHWJKma0yRq-CwjCBw-large.jpg","city":"Philadelphia, PA","comments_count":0,"country_code":"US","created_at":null,"creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Operator Effects\nWest Virginia -  Mountain Wubz 8/28-8/30\nDubstep - Drum \u0026 Bass - Halftime - 140 -\nFreeform Bass - Multi-Genre - Genreless .\n\nOPIFEX - Latin for \"Maker or Creator\" \n\nModern craftsmen are often seen as innovators, pushing the boundaries of traditional methods to create new and original pieces. They embody the “Opifex” spirit by being inventors and artists in their respective fields.\n\nSkill and Technique: \nJust like the classical “Opifex,” today’s artisans possess specialized skills and techniques honed through years of practice. They apply these skills to produce high-quality, handcrafted items that reflect their mastery.\n\nSustainability and Ethical Practices: \nThere is a growing emphasis on sustainable and ethical practices in modern craftsmanship. Artisans are increasingly using eco-friendly materials and methods, aligning with the “Opifex” ethos of responsible creation.\n\nCultural and Artistic Expression: \nCraftsmanship today is not just about creating functional items but also about expressing cultural narratives and artistic visions. This aligns with the “Opifex” role as a storyteller and preserver of cultural heritage.\n\nIn essence, the “Opifex” of the past and the present artisan share a common thread of creativity, skill, and a deep connection to the materials they work with. They both represent the human impulse to create and contribute to the cultural fabric of their time. Modern craftsmen, in many ways, continue the legacy of the “Opifex” by bringing together the old and the new, crafting not just objects but also meaning and experiences for their communities.\n\nAny and all contributions are greatly appreciated and admired.\nYour support goes beyond an electronic numerical value \u003c3","followers_count":1299,"followings_count":1123,"first_name":"Operator","full_name":"Operator Effects","groups_count":0,"id":62504729,"kind":"user","last_modified":"2026-09-06T18:48:52Z","last_name":"Effects","likes_count":14571,"playlist_likes_count":1096,"permalink":"opifexofficial","permalink_url":"https://soundcloud.com/opifexofficial","playlist_count":23,"reposts_count":null,"track_count":29,"uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A62504729","urn":"soundcloud:users:62504729","username":"OPIFEX","verified":false,"visuals":{"urn":"soundcloud:users:62504729","enabled":true,"visuals":[{"urn":"soundcloud:visuals:262415031","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000062504729-k2ACpX-original.jpg"}],"tracking":null},"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:62504729","station_permalink":"artist-stations:62504729","date_of_birth":null,"dataRepresentation":2}},"soundcloud:users:12893396":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-Zo5ftIDc0sizL4AV-WzUtHw-large.jpg","first_name":"Jessica","followers_count":18,"full_name":"Jessica Williams","id":12893396,"kind":"user","last_modified":"2025-11-24T07:01:10Z","last_name":"Williams","permalink":"jessica-williams-7","permalink_url":"https://soundcloud.com/jessica-williams-7","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A12893396","urn":"soundcloud:users:12893396","username":"Neonblackunicorn","verified":false,"city":"Redlands","country_code":"US","badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":false,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:12893396","station_permalink":"artist-stations:12893396","dataRepresentation":1}},"soundcloud:users:412842021":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-QANl6TcxHyRA0DzE-XZkFKQ-large.jpg","first_name":"ZENXOW","followers_count":6325,"full_name":"ZENXOW","id":412842021,"kind":"user","last_modified":"2026-08-30T21:05:12Z","last_name":"","permalink":"zenxow","permalink_url":"https://soundcloud.com/zenxow","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A412842021","urn":"soundcloud:users:412842021","username":"ZENXOW","verified":true,"city":"AFK","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:412842021","station_permalink":"artist-stations:412842021","dataRepresentation":1}},"soundcloud:users:1197917080":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-p5C1pGPgbFKynIYH-7RvUCA-large.jpg","first_name":"Doug","followers_count":3048,"full_name":"Doug Stoothoff","id":1197917080,"kind":"user","last_modified":"2025-11-11T06:05:59Z","last_name":"Stoothoff","permalink":"doug-stoothoff","permalink_url":"https://soundcloud.com/doug-stoothoff","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A1197917080","urn":"soundcloud:users:1197917080","username":"Doug Stoothoff","verified":false,"city":"Glacier, WA","country_code":"US","badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:1197917080","station_permalink":"artist-stations:1197917080","dataRepresentation":1}},"soundcloud:users:656616456":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-rkeQdMkvBcA1Dm8E-myldkA-large.jpg","first_name":"Fabrizio","followers_count":1047,"full_name":"Fabrizio Manzitti","id":656616456,"kind":"user","last_modified":"2026-09-16T20:11:24Z","last_name":"Manzitti","permalink":"user-313430783-790339134","permalink_url":"https://soundcloud.com/user-313430783-790339134","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A656616456","urn":"soundcloud:users:656616456","username":"Fabrizio Manzitti Group","verified":false,"city":null,"country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:656616456","station_permalink":"artist-stations:656616456","dataRepresentation":1}},"soundcloud:users:1195070053":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-O74yyku4Ch9guJzD-B9iAyg-large.jpg","first_name":"Greg","followers_count":4321,"full_name":"Greg Elenis","id":1195070053,"kind":"user","last_modified":"2026-08-28T22:55:34Z","last_name":"Elenis","permalink":"ge8111","permalink_url":"https://soundcloud.com/ge8111","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A1195070053","urn":"soundcloud:users:1195070053","username":"Greg Elenis","verified":false,"city":"New York","country_code":"US","badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:1195070053","station_permalink":"artist-stations:1195070053","dataRepresentation":1}},"soundcloud:users:647255":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-QSuoApkKkbe5ANvz-Ug6WWw-large.jpg","first_name":"","followers_count":1770,"full_name":"","id":647255,"kind":"user","last_modified":"2026-02-22T17:01:22Z","last_name":"","permalink":"herbie-hatchback","permalink_url":"https://soundcloud.com/herbie-hatchback","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A647255","urn":"soundcloud:users:647255","username":"Herbie Hatchback","verified":false,"city":null,"country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":false,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:647255","station_permalink":"artist-stations:647255","dataRepresentation":1}},"soundcloud:users:133657596":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-VIJn6LMYuLtXnIeg-bcVslQ-large.jpg","first_name":"Andrew","followers_count":1893,"full_name":"Andrew Johnson","id":133657596,"kind":"user","last_modified":"2026-08-28T04:07:00Z","last_name":"Johnson","permalink":"yourboysus","permalink_url":"https://soundcloud.com/yourboysus","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A133657596","urn":"soundcloud:users:133657596","username":"Dr. Sus","verified":false,"city":"LA","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:133657596","station_permalink":"artist-stations:133657596","dataRepresentation":1}},"soundcloud:users:1230708":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-dyLZ7RJFAT4pYW9g-MIJ1xg-large.jpg","first_name":"skeyn","followers_count":375,"full_name":"skeyn","id":1230708,"kind":"user","last_modified":"2026-06-29T21:39:31Z","last_name":"","permalink":"dj-skeyn","permalink_url":"https://soundcloud.com/dj-skeyn","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A1230708","urn":"soundcloud:users:1230708","username":"Dj Skeyn","verified":false,"city":"caracas","country_code":"VE","badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":false,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:1230708","station_permalink":"artist-stations:1230708","dataRepresentation":1}},"soundcloud:users:510409467":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-1ro6e3J56D9AlOMQ-MzTPJQ-large.jpg","first_name":"Grand Alliance Music","followers_count":2352,"full_name":"Grand Alliance Music","id":510409467,"kind":"user","last_modified":"2026-08-31T16:30:14Z","last_name":"","permalink":"grandalliancemusic","permalink_url":"https://soundcloud.com/grandalliancemusic","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A510409467","urn":"soundcloud:users:510409467","username":"Grand Alliance Music","verified":false,"city":"PNW","country_code":"US","badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:510409467","station_permalink":"artist-stations:510409467","dataRepresentation":1}},"soundcloud:users:2334763":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-ObQazPVBtwALtG9v-FIufkw-large.jpg","first_name":"","followers_count":4859,"full_name":"","id":2334763,"kind":"user","last_modified":"2026-09-14T14:52:49Z","last_name":"","permalink":"ragebot","permalink_url":"https://soundcloud.com/ragebot","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A2334763","urn":"soundcloud:users:2334763","username":"Rage-Bot","verified":true,"city":"","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:2334763","station_permalink":"artist-stations:2334763","dataRepresentation":1}},"soundcloud:users:386141213":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-U8dWjOqa2X2zKop8-VN90zw-large.jpg","first_name":"","followers_count":5125,"full_name":"","id":386141213,"kind":"user","last_modified":"2026-06-18T00:28:13Z","last_name":"","permalink":"itzkeylo614","permalink_url":"https://soundcloud.com/itzkeylo614","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A386141213","urn":"soundcloud:users:386141213","username":"Keylo","verified":true,"city":"Cleveland","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:386141213","station_permalink":"artist-stations:386141213","dataRepresentation":1}},"soundcloud:users:215013822":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-41KaVepNyrmltVEm-Ra1FJQ-large.jpg","first_name":"Artist \u0026 Record Label","followers_count":11585,"full_name":"Artist \u0026 Record Label foo","id":215013822,"kind":"user","last_modified":"2026-08-13T19:00:46Z","last_name":"foo","permalink":"huskibass","permalink_url":"https://soundcloud.com/huskibass","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A215013822","urn":"soundcloud:users:215013822","username":"HUSKI (HUSKI BASS) 🐺","verified":true,"city":"Moreno Valley, CA | The IE foo","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:215013822","station_permalink":"artist-stations:215013822","dataRepresentation":1}},"soundcloud:users:325071253":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-oWrhRyxdHJtCJzJA-zCHGQQ-large.jpg","first_name":"Bass","followers_count":6738,"full_name":"Bass Music Record Label","id":325071253,"kind":"user","last_modified":"2026-08-10T03:49:49Z","last_name":"Music Record Label","permalink":"suitsandsnares","permalink_url":"https://soundcloud.com/suitsandsnares","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A325071253","urn":"soundcloud:users:325071253","username":"Suits \u0026 Snares","verified":false,"city":"Perth","country_code":"AU","badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:325071253","station_permalink":"artist-stations:325071253","dataRepresentation":1}},"soundcloud:users:59657514":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-p7UWSNarXddmxXmc-b7m7WA-large.jpg","first_name":"","followers_count":1408,"full_name":"","id":59657514,"kind":"user","last_modified":"2026-09-05T07:41:54Z","last_name":"","permalink":"sindradubs","permalink_url":"https://soundcloud.com/sindradubs","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A59657514","urn":"soundcloud:users:59657514","username":"SINDRA","verified":false,"city":"Santa Cruz, CA","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:59657514","station_permalink":"artist-stations:59657514","dataRepresentation":1}},"soundcloud:users:408650910":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-MQ2cgFKz6defCOzJ-Z23ncg-large.jpg","first_name":"6IX$ECT","followers_count":2047,"full_name":"6IX$ECT","id":408650910,"kind":"user","last_modified":"2026-08-26T06:13:36Z","last_name":"","permalink":"odiax","permalink_url":"https://soundcloud.com/odiax","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A408650910","urn":"soundcloud:users:408650910","username":"Odiax","verified":false,"city":"Salt Lake City","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:408650910","station_permalink":"artist-stations:408650910","dataRepresentation":1}},"soundcloud:users:33967281":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"avatar_url":"https://i1.sndcdn.com/avatars-z0WfFCptyMQMMICu-gDIT2g-large.jpg","first_name":"Greg","followers_count":3507,"full_name":"Greg","id":33967281,"kind":"user","last_modified":"2026-07-21T09:01:01Z","last_name":"","permalink":"squirrely-bass","permalink_url":"https://soundcloud.com/squirrely-bass","uri":"https://api.soundcloud.com/users/soundcloud%3Ausers%3A33967281","urn":"soundcloud:users:33967281","username":"Squirrely Bass","verified":false,"city":"∞","country_code":null,"badges":{"pro":false,"creator_mid_tier":false,"pro_unlimited":true,"verified":false},"station_urn":"soundcloud:system-playlists:artist-stations:33967281","station_permalink":"artist-stations:33967281","dataRepresentation":1}}},"webProfiles":{},"comments":{"soundcloud:comments:2584778759":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2584778759,"body":"I LOVE THIS❤︎","created_at":"2026-08-27T21:03:18Z","timestamp":68583,"track_id":2252247356,"user_id":12893396,"self":{"urn":"soundcloud:comments:2584778759"},"user":"soundcloud:users:12893396","urn":"soundcloud:comments:2584778759"}},"soundcloud:comments:2582442828":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2582442828,"body":"🗿🗿","created_at":"2026-08-21T23:50:11Z","timestamp":59318,"track_id":2252247356,"user_id":412842021,"self":{"urn":"soundcloud:comments:2582442828"},"user":"soundcloud:users:412842021","urn":"soundcloud:comments:2582442828"}},"soundcloud:comments:2532602136":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2532602136,"body":"🤘","created_at":"2026-05-02T01:51:23Z","timestamp":99128,"track_id":2252247356,"user_id":1197917080,"self":{"urn":"soundcloud:comments:2532602136"},"user":"soundcloud:users:1197917080","urn":"soundcloud:comments:2532602136"}},"soundcloud:comments:2532269939":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2532269939,"body":"big tune 🎵","created_at":"2026-05-01T14:06:03Z","timestamp":77557,"track_id":2252247356,"user_id":656616456,"self":{"urn":"soundcloud:comments:2532269939"},"user":"soundcloud:users:656616456","urn":"soundcloud:comments:2532269939"}},"soundcloud:comments:2519683538":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2519683538,"body":"This feels good... vocals and drums are fire 🔥","created_at":"2026-04-08T11:27:22Z","timestamp":65197,"track_id":2252247356,"user_id":1195070053,"self":{"urn":"soundcloud:comments:2519683538"},"user":"soundcloud:users:1195070053","urn":"soundcloud:comments:2519683538"}},"soundcloud:comments:2481518190":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2481518190,"body":"cool ✨","created_at":"2026-01-27T05:33:58Z","timestamp":1502,"track_id":2252247356,"user_id":647255,"self":{"urn":"soundcloud:comments:2481518190"},"user":"soundcloud:users:647255","urn":"soundcloud:comments:2481518190"}},"soundcloud:comments:2481437606":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2481437606,"body":"💪","created_at":"2026-01-27T01:06:58Z","timestamp":35050,"track_id":2252247356,"user_id":133657596,"self":{"urn":"soundcloud:comments:2481437606"},"user":"soundcloud:users:133657596","urn":"soundcloud:comments:2481437606"}},"soundcloud:comments:2481434994":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2481434994,"body":"smooth af 😎","created_at":"2026-01-27T00:59:14Z","timestamp":40133,"track_id":2252247356,"user_id":1230708,"self":{"urn":"soundcloud:comments:2481434994"},"user":"soundcloud:users:1230708","urn":"soundcloud:comments:2481434994"}},"soundcloud:comments:2481403422":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"kind":"comment","id":2481403422,"body":"@mavez-121691593: thnx ! \u003c3","created_at":"2026-01-26T23:31:39Z","timestamp":88723,"track_id":2252247356,"user_id":62504729,"self":{"urn":"soundcloud:comments:2481403422"},"user":"soundcloud:users:62504729","urn":"soundcloud:comments:2481403422"}}},"reposts":{},"chartsCollections":{},"featuredTracksCollections":{},"tracksCollections":{},"topTracksCollections":{},"playlistsCollections":{},"anyPlaylistsCollections":{},"playlistLikersCollections":{},"playlistRepostersCollections":{},"followersCollections":{},"followingsCollections":{},"waveformData":{},"searchQueriesCollections":{},"searchResultsCollections":{},"tagsCollections":{},"spotlightCollections":{},"likesCollections":{},"commentsCollections":{"soundcloud:tracks:2252247356":{"status":"mobi/remoteDataStatus/SUCCESS","data":{"collection":["soundcloud:comments:2584778759","soundcloud:comments:2582442828","soundcloud:comments:2532602136","soundcloud:comments:2532269939","soundcloud:comments:2519683538","soundcloud:comments:2481518190","soundcloud:comments:2481437606","soundcloud:comments:2481434994","soundcloud:comments:2481403422"],"next_href":null,"query_urn":null,"id":"soundcloud:tracks:2252247356","fetchingMore":false}}},"trackLikersCollections":{},"trackRepostersCollections":{},"repostsCollections":{},"streamCollections":{},"trackPlaylistsCollections":{},"trackAlbumsCollections":{},"albumsCollections":{},"relatedUsersCollections":{},"discoverCollections":{},"mixedSelectionsCollections":{},"whoToFollowCollections":{},"historicalPlayContexts":{},"playHistoryContextCollections":{},"historicalPlays":{},"playHistoryCollections":{}},"entityUrlMap":{"/opifexofficial":"soundcloud:users:62504729","/opifexofficial/no-light-from-the-sun":"soundcloud:tracks:2252247356","/jessica-williams-7":"soundcloud:users:12893396","/zenxow":"soundcloud:users:412842021","/doug-stoothoff":"soundcloud:users:1197917080","/user-313430783-790339134":"soundcloud:users:656616456","/ge8111":"soundcloud:users:1195070053","/herbie-hatchback":"soundcloud:users:647255","/yourboysus":"soundcloud:users:133657596","/dj-skeyn":"soundcloud:users:1230708","/grandalliancemusic":"soundcloud:users:510409467","/ragebot":"soundcloud:users:2334763","/itzkeylo614":"soundcloud:users:386141213","/huskibass":"soundcloud:users:215013822","/suitsandsnares":"soundcloud:users:325071253","/sindradubs":"soundcloud:users:59657514","/odiax":"soundcloud:users:408650910","/squirrely-bass":"soundcloud:users:33967281","/grandalliancemusic/breaking-bread-lucastheflow":"soundcloud:tracks:2219063627","/ragebot/no-pain":"soundcloud:tracks:2313034565","/itzkeylo614/aweminus-sea-shanty-flip-12":"soundcloud:tracks:2246780324","/huskibass/juicealmostperfect":"soundcloud:tracks:2367529886","/suitsandsnares/v-1x-4i":"soundcloud:tracks:2377322306","/sindradubs/playa-1":"soundcloud:tracks:2386377117","/huskibass/juicesilhouette":"soundcloud:tracks:2367529883","/suitsandsnares/0nfree":"soundcloud:tracks:2377326470","/odiax/mastered-odiax-burn-ft-lenex":"soundcloud:tracks:2376917573","/squirrely-bass/squirrely-bass-miownize-involucre-1":"soundcloud:tracks:2365067351"},"authentication":{"meUserUrn":{"status":"mobi/remoteDataStatus/IDLE"}},"toggles":{"followings":{"soundcloud:users:anonymous":{"status":"mobi/remoteDataStatus/SUCCESS","data":{}}},"trackLikes":{"soundcloud:users:anonymous":{"status":"mobi/remoteDataStatus/SUCCESS","data":{}}},"trackReposts":{"soundcloud:users:anonymous":{"status":"mobi/remoteDataStatus/SUCCESS","data":{}}},"playlistLikes":{"soundcloud:users:anonymous":{"status":"mobi/remoteDataStatus/SUCCESS","data":{}}},"playlistReposts":{"soundcloud:users:anonymous":{"status":"mobi/remoteDataStatus/SUCCESS","data":{}}}}}},"anonymousId":"146112-4935-215006-760487","browserTabId":"4d4824","initialLocale":"en","initialPhrases":null,"initialFeatures":["mobi_webauth_oauth_mode","mobi_use_auth_internal_analytics","v2_use_onetrust_tcfv2_us_ca","mobi_enable_onetrust_tcfv2","mobi_tracking_send_session_id","mobi_use_onetrust_eu1","checkout_prefetch_recurly","mobi_use_onetrust_gb","mobi_use_onetrust_tcfv2_us_ca","mobi_dsa_report_content_form","mobi_subscription_withdrawal_form","v2_dsa_report_content_links","v2_use_onetrust_user_id_eu2","v2_enable_sourcepoint_tcfv2","mobi_use_onetrust_tcfv2_eu2","checkout_send_segment_events_to_event_gateway","mobi_use_onetrust_user_id_eu1","trolley","v2_nigeria_creator_banner","mobi_use_onetrust_user_id_ex_us","mobi_use_onetrust_tcfv2_eu1","v2_post_with_caption","v2_use_drm_transcodings","v2_webi_embed_container","mobi_use_dwt","v2_use_onetrust_tcfv2_eu1","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page","v2_use_onetrust_gb","v2_dsa_ad_compliance","checkout_use_extole","use_onetrust_async","creator_mid_tier_not_us","mobi_dsa_report_content_links","v2_signals_collection","v2_track_level_distro_to_plan_picker","v2_direct_support_link","checkout_web_products","v2_api_auth_sign_out","v2_ie11_support_end","checkout_use_new_connect","mobi_dsa_ad_compliance","v2_skip_prerendered_navigate","cd_repost_to_artists","v2_enable_crossfade","v2_tracking_moengage_integration","mobi_report_content_links","creator_mid_tier_canada","v2_hq_file_storage_release","gql_tracks","creator_plan_names_repositioning","v2_use_onetrust_eu4","v2_stories_onboarding","mobi_use_onetrust_user_id_eu2","mobi_tracking_moengage_integration","v2_use_dwt","v2_use_updated_alert_banner_quota_upsell","creator_mid_tier_downgrade_downgrade","v2_enable_onetrust","v2_signed_out_cancellation_flow","v2_import_playlist_experiment","v2_disable_sidebar_comments_count","v2_upload_redirection","v2_subhub_churn_intercept","checkout_use_new_plan_picker","v2_signage_on_home","v2_use_onetrust_eu2","next_pro_first_fans","v2_comscore_udm_2","checkout_creator_coupon_codes_enabled","fpi_messaging_drawer","v2_use_onetrust_us","v2_featured_fans_opt_out","v2_comment_sorting","mobi_open_app_soft_wall","shorten_on_soundcloud","sc4a_benefits_iframe","checkout_use_recurly_with_paypal","creator_mid_tier_not_germany_france_us","v2_show_for_artists_link","mobi_use_onetrust_eu3","mobi_use_onetrust_elsewhere","v2_use_onetrust_eu3","v2_use_onetrust_tcfv2_ex_us","creator_mid_tier","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_fallback_queue_for_search","v2_use_onetrust_user_id_ex_us","creator_mid_tier_upgrade_downgrade","v2_use_new_connect","v2_use_onetrust_tcfv2_eu2","mobi_interstitial_ad","v2_get_heard","v2_interstitial_ad","v2_send_segment_events_to_event_gateway","v2_use_onetrust_eu1","v2_enable_sourcepoint","v2_repost_with_caption_graphql","mobi_use_onetrust_tcfv2_ex_us","creator_mid_tier_anz","v2_tags_recent_tracks","sc4a_onboarding_checklist","v2_statsig_hydrate_init","show_disabled_tracks","checkout_hydrate_config","mobi_new_ad_placements","mobi_use_onetrust_eu2","v2_velvetcake_profile_widget","v2_use_onetrust_elsewhere","checkout_use_dwt","v2_webauth_use_local_tracking","mobi_sign_in_experiment","mobi_enable_onetrust","v2_can_see_insights","fpi_20_fans_rollout","mobi_trinity","v2_enable_crossfade_upload","request_takedown","v2_monetization_mx","v2_webauth_oauth_mode","v2_google_one_tap","v2_enable_pwa","v2_use_extole","mobi_use_drm_transcodings","mobi_use_hls_hack","creator_mid_tier_uk","v2_stories","v2_use_onetrust_user_id_eu1","v2_use_onetrust_user_id_global","use_recurly_checkout","v2_show_side_by_side_upsell_experience","v2_enable_onetrust_tcfv2","v2_enable_crossfade_track_manager","v2_enable_tcfv2_consent_string_cache","v2_track_manager_redirection","use_on_soundcloud_short_links","mobi_send_segment_events_to_event_gateway","artist_fan_connection_widget","v2_update_sidebar_module_headers"],"forcedFeatures":[],"browsingEnv":{"geoInfo":{"country_code":"ID","country_name":"Indonesia","region":"BT","city":"South Tangerang","postal_code":"15310","latitude":-6.264,"longitude":106.7324,"timezone":"Asia/Jakarta"},"referrer":"https://www.google.com/","device":"android","browser":"Unknown"},"isErrorReportingEnabled":false},"page":"/[user]/[track]","query":{"user":"opifexofficial","track":"no-light-from-the-sun"},"buildId":"1789574505","assetPrefix":"https://m.sndcdn.com","runtimeConfig":{"env":"production","isDev":false,"host":"m.soundcloud.com","port":"80","stagingId":"","clientId":"KKzJxmw11tYpCs6T24P4uUYhqmjalG6M","appId":"65097","buildVersion":"1789574505","apiWebHost":"api-mobi.soundcloud.com","apiAuthHost":"api-auth.soundcloud.com","secureHost":"secure.soundcloud.com","peopleDirectoryHost":"directory.soundcloud.com","staticPagesHost":"pages.soundcloud.com","moEngageApiKey":"8WUYJAML31R2SWQ1SYQU8Y3A","wisHost":"wis.sndcdn.com","v2Host":"soundcloud.com","authUiHost":"secure.soundcloud.com","firebaseApiKey":"AIzaSyCyJd9YWHCkMgshFd2nDL-Ig_qjnuUSH20","oauthRedirectUri":"https://m.soundcloud.com/signin/callback","frameAncestors":"soundcloud.com m.soundcloud.com mobi.soundcloud.com","datadomeClientApiKey":"7FC6D561817844F25B65CDD97F28A1","isAirbrakeEnabled":"3e340b34a8a5d7f5abeb8e3e2f3d76bf","airbrakeProjectId":"291589","airbrakeProjectKey":"3e340b34a8a5d7f5abeb8e3e2f3d76bf","airbrakeSampleRate":"0.01","zendeskHost":"soundcloud.zendesk.com/api/v2","shrinkLinkHost":"shrinklink.soundcloud.com","graphHost":"graph.soundcloud.com","drmLicenseUri":"https://license.media-streaming.soundcloud.cloud","manageTokenExpiry":true,"shouldUseSrv":false,"fetchTimeoutRetryMs":100},"isFallback":false,"customServer":true,"gip":true,"appGip":true,"head":[["meta",{"charSet":"utf-8"}],["style",{"dangerouslySetInnerHTML":{"__html":"\nbody.ot-hide-banner #onetrust-banner-sdk {\n  visibility: hidden;\n  transform: translateY(110%);\n}\n#onetrust-banner-sdk {\n  transition: transform 1s ease 200ms;\n  transform: translateY(0%);\n}\n"}}],["script",{"src":"https://cdn.cookielaw.org/consent/7e62c772-c97a-4d95-8d0a-f99bbeadcf61/otSDKStub.js","type":"text/javascript","data-domain-script":"7e62c772-c97a-4d95-8d0a-f99bbeadcf61","data-testid":"ot-script"}],["script",{"type":"text/javascript","dangerouslySetInnerHTML":{"__html":"\n(function () {\n  window.OptanonWrapper = function() {\n    var activeCategories = window.OptanonActiveGroups.split(',').filter(Boolean);\n\n    window.OneTrustConsentChangeListeners.forEach(function(listener) {\n      try {\n        listener(activeCategories);\n      } catch (e) {}\n    });\n\n    window.OptanonWrapperCalls++;\n  };\n  window.OptanonWrapperCalls = 0;\n  window.OneTrustConsentChangeListeners = window.OneTrustConsentChangeListeners || new Set();\n})();\n"}}],["link",{"rel":"icon","type":"image/png","sizes":"48x48","href":"https://m.sndcdn.com/_next/static/images/favicon-48-b5f9a970b3ee16fd8f0698d0d34a1f32.png"}],["link",{"rel":"apple-touch-icon","href":"https://m.sndcdn.com/_next/static/images/apple-touch-icon-120-5985855d482b4a119eb401c43a01336b.png"}],["link",{"rel":"apple-touch-icon","sizes":"180x180","href":"https://m.sndcdn.com/_next/static/images/apple-touch-icon-180-dd8465ef631c16f24df540ad961c3d12.png"}],["link",{"rel":"search","type":"application/opensearchdescription+xml","href":"/sc-opensearch.xml","title":"SoundCloud"}],["meta",{"property":"fb:app_id","content":"19507961798"}],["meta",{"property":"og:site_name","content":"SoundCloud"}],["meta",{"property":"al:ios:app_name","content":"SoundCloud"}],["meta",{"property":"al:ios:app_store_id","content":"336353151"}],["meta",{"property":"al:android:app_name","content":"SoundCloud"}],["meta",{"property":"al:android:package","content":"com.soundcloud.android"}],["title",{"children":"Stream No Light From The Sun by OPIFEX | Listen online for free on SoundCloud"}],["meta",{"name":"description","content":"Stream No Light From The Sun by OPIFEX on desktop and mobile. Play over 320 million tracks for free on SoundCloud."}],["meta",{"name":"keywords","content":"record, sounds, share, sound, audio, tracks, music, soundcloud"}],["meta",{"name":"referrer","content":"origin"}],["link",{"rel":"canonical","href":"https://soundcloud.com/opifexofficial/no-light-from-the-sun"}],["link",{"rel":"icon","type":"image/png","sizes":"48x48","href":"https://m.sndcdn.com/_next/static/images/favicon-48-b5f9a970b3ee16fd8f0698d0d34a1f32.png"}],["link",{"rel":"apple-touch-icon","href":"https://m.sndcdn.com/_next/static/images/apple-touch-icon-120-5985855d482b4a119eb401c43a01336b.png"}],["link",{"rel":"apple-touch-icon","sizes":"180x180","href":"https://m.sndcdn.com/_next/static/images/apple-touch-icon-180-dd8465ef631c16f24df540ad961c3d12.png"}],["link",{"rel":"search","type":"application/opensearchdescription+xml","href":"/sc-opensearch.xml","title":"SoundCloud"}],["meta",{"name":"theme-color","content":"#333"}],["meta",{"name":"viewport","content":"width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1"}],["meta",{"property":"fb:app_id","content":"19507961798"}],["meta",{"property":"og:site_name","content":"SoundCloud"}],["meta",{"property":"al:ios:app_name","content":"SoundCloud"}],["meta",{"property":"al:ios:app_store_id","content":"336353151"}],["meta",{"property":"al:android:app_name","content":"SoundCloud"}],["meta",{"property":"al:android:package","content":"com.soundcloud.android"}],["meta",{"name":"twitter:app:name:iphone","content":"SoundCloud"}],["meta",{"name":"twitter:app:id:iphone","content":"336353151"}],["meta",{"name":"twitter:app:name:ipad","content":"SoundCloud"}],["meta",{"name":"twitter:app:id:ipad","content":"336353151"}],["meta",{"name":"twitter:app:name:googleplay","content":"SoundCloud"}],["meta",{"name":"twitter:app:id:googleplay","content":"com.soundcloud.android"}],["meta",{"property":"og:type","content":"music.song"}],["meta",{"property":"og:url","content":"https://soundcloud.com/opifexofficial/no-light-from-the-sun"}],["meta",{"property":"og:title","content":"No Light From The Sun"}],["meta",{"property":"og:image","content":"https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t1080x1080.jpg"}],["meta",{"property":"og:image:width","content":"1080"}],["meta",{"property":"og:image:height","content":"1080"}],["meta",{"property":"og:description","content":"Stream No Light From The Sun by OPIFEX on desktop and mobile. Play over 320 million tracks for free on SoundCloud."}],["meta",{"property":"al:web:should_fallback","content":"false"}],["meta",{"property":"al:ios:url","content":"soundcloud://sounds:2252247356"}],["meta",{"property":"al:android:url","content":"soundcloud://sounds:2252247356"}],["meta",{"property":"medium","content":"video"}],["meta",{"property":"og:video:width","content":"460"}],["meta",{"property":"og:video:height","content":"98"}],["meta",{"property":"og:video:type","content":"application/x-shockwave-flash"}],["meta",{"property":"og:video","content":"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2252247356\u0026auto_play=false\u0026show_artwork=true\u0026visual=true\u0026color=3b5998\u0026origin=facebook"}],["meta",{"name":"twitter:title","content":"No Light From The Sun"}],["meta",{"name":"twitter:description","content":"Stream No Light From The Sun by OPIFEX on desktop and mobile. Play over 320 million tracks for free on SoundCloud."}],["meta",{"name":"twitter:url","content":"https://soundcloud.com/opifexofficial/no-light-from-the-sun"}],["meta",{"name":"twitter:image:src","content":"https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t1080x1080.jpg"}],["meta",{"name":"twitter:app:url:googleplay","content":"soundcloud://sounds:2252247356"}],["meta",{"name":"twitter:app:url:iphone","content":"soundcloud://sounds:2252247356"}],["meta",{"name":"twitter:app:url:ipad","content":"soundcloud://sounds:2252247356"}],["meta",{"name":"twitter:player","content":"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2252247356\u0026auto_play=false\u0026show_artwork=true\u0026visual=true\u0026origin=twitter"}],["meta",{"name":"twitter:player:height","content":"400"}],["meta",{"name":"twitter:player:width","content":"435"}],["meta",{"name":"twitter:card","content":"player"}],["meta",{"name":"twitter:audio:partner","content":"SoundCloud"}],["meta",{"name":"twitter:audio:artist_name","content":"OPIFEX"}],["meta",{"name":"twitter:audio:source","content":"https://api-partners.soundcloud.com/twitter/tracks/soundcloud:sounds:2252247356/vmap"}],["link",{"rel":"alternate","type":"text/xml+oembed","href":"https://soundcloud.com/oembed?url=https%3A%2F%2Fsoundcloud.com%2Fopifexofficial%2Fno-light-from-the-sun\u0026format=xml"}],["link",{"rel":"alternate","type":"text/json+oembed","href":"https://soundcloud.com/oembed?url=https%3A%2F%2Fsoundcloud.com%2Fopifexofficial%2Fno-light-from-the-sun\u0026format=json"}],["script",{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"MusicRecording\",\"@id\":\"soundcloud:tracks:2252247356\",\"name\":\"No Light From The Sun by OPIFEX\",\"description\":\"Original Lyrics + Music Wrote and Produced by OPIFEX\\n\\nLyrics\\n\\nCold, tired and mean.\\nYou say I\u0026apos;m wrong\\nI guess we\u0026apos;ll see.\\nSkies will break,\\nI\u0026apos;ll wait.\\nI know you\u0026apos;ll come around to me.\\nIn time,\\nIn time,\\n\\n[Chorus]\\nGot no light from the sun,\\nI saw you lookin\u0026apos; right at me,\\nAnd it don\u0026apos;t hurt bad\\nI\u0026apos;m sure,\\n\u0026apos;Cause the world is cold, tired and mean,\\nYou say I\u0026apos;m wrong\\nI guess we\u0026apos;ll see,\\nSkies will break,\\nI\u0026apos;ll wait,\\nI know you\u0026apos;ll come around to me,\\nIn time…\\nIn time…\\n\\n\\nAll Rights Reserved. Copyright 2026. OPIFEX.\",\"url\":\"https://soundcloud.com/opifexofficial/no-light-from-the-sun\",\"duration\":\"PT00H01M55S\",\"genre\":\"Electronic\",\"interactionStatistic\":[{\"@type\":\"InteractionCounter\",\"interactionType\":{\"@type\":\"LikeAction\"},\"userInteractionCount\":307},{\"@type\":\"InteractionCounter\",\"interactionType\":{\"@type\":\"DownloadAction\"},\"userInteractionCount\":2},{\"@type\":\"InteractionCounter\",\"interactionType\":{\"@type\":\"CommentAction\"},\"userInteractionCount\":14}],\"image\":\"https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-large.jpg\",\"audio\":{\"@type\":\"AudioObject\",\"embedUrl\":\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2252247356\u0026amp;auto_play=false\u0026amp;show_artwork=true\u0026amp;visual=true\u0026amp;origin=schema.org\",\"height\":\"400px\"},\"byArtist\":{\"@type\":\"MusicGroup\",\"@id\":\"soundcloud:users:62504729\",\"name\":\"OPIFEX\",\"url\":\"https://soundcloud.com/opifexofficial\"},\"provider\":{\"@type\":\"Organization\",\"name\":\"SoundCloud\",\"image\":\"https://m.sndcdn.com/_next/static/images/favicon-48-b5f9a970b3ee16fd8f0698d0d34a1f32.png\"}}"}}],["meta",{"name":"soundcloud:user","content":"https://soundcloud.com/opifexofficial"}],["meta",{"name":"soundcloud:play_count","content":"932"}],["meta",{"name":"soundcloud:download_count","content":"2"}],["meta",{"name":"soundcloud:comments_count","content":"14"}],["meta",{"name":"soundcloud:like_count","content":"307"}],["link",{"rel":"author","href":"/opifexofficial"}],["link",{"rel":"preload","as":"image","href":"https://i1.sndcdn.com/artworks-B4vZ8DsYyyyaj2SH-3Ukw8w-t500x500.jpg"}]]}
+        </script>
+        <script nomodule="" src="https://m.sndcdn.com/_next/static/chunks/polyfills-8d39d57f345d661b5bb3.js"></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/main-28b612e9b4e38a5ac1a9.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/webpack-d3d1fdee28db4bc2efe5.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/ffd80846.8c9e6bdf8307d28713a0.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/85f18be4.ea3e95de9b6ca8279474.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/d764dcb2.e390ede5497e6e7e6438.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/commons.3545ade2d54cac3a3884.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/a8d855b672da370e1c0a2276a471fe89d49ab9ba.50f7cacd427ce4bc045b.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/aa974de5a277ae81021d497fd1a86a4ec04f73fc.b6d3cb9a4689be9fe35f.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/da7bae30a150300be611ec854411cd7c908011ce.99c3931abdaa9656d4bd.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/62af44bfe8e37b7117ea717c2709ce403086add5.ae930009c370ca1b2430.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/92c7ba7f0a7a0c4f8648b3c28d55e87a2c102d84.5a4c3f6aac1dcc0a3894.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/61163c9b3e1b614e8979f3820a6578dc8c119e36.d576a1d5108094d9d992.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/7fd081664c3cd0713a0656ce356c6997f4aada2b.9a7e6e68c26b715d17b8.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/53410518dad80e551ecc792e1026fc46d0c526e3.5847dbabf601f5d0bca0.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/b751839ffc8498c1a5c528659c8ee667b3c9183b.ad23fe8c5803e561fc56.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/fe6282b7c3a730b5d7fd0a0a4dc7ffdb54e6844f.31317368d8fdbec42b1a.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/2363eaadcf05388b999211fc437c2ad1eb5651c2.70ae2aea11c4699248cc.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/4b7987ac2cdcc87a25b9d743ee997d9262d20626.aeab308a2d60ba74eeb3.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/7d94d6b936f3df216fb39386c8cd616c58799369.30ba6247cc03cc5bbf73.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/17b100088e274ba2cd9cebc48586e53537272479.88ecb0d7ac9b94c301db.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/17b100088e274ba2cd9cebc48586e53537272479_CSS.0b5f6bdc6f7c56fd5910.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/db3caabb5c6e46ae015a8f94b6218a21761cefdb.c2fa089a922b3947dfca.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/da41d81fc5383ee5afd948a53479347c2eb390a3.1dbc57032ec99b1db0a3.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/a0a91107783630a1b4c90503be1b6ecc636be72a.ba6852682325ef9ecfdf.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/d617f59ed564c0393c29c29090c7504aff36450f.f737d14b5f794da80daf.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/8c54897ce4c59728f90778a73ca913843147ff73.1d3cd3e1ca7de1bcc6e7.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/pages/_app-144e973cf205b5b05602.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/1edc6d2e72bc5e8c5241f6a3b92f474aab755558.75bea4f05cd5c9a7397c.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/bfbb44f9390276dbd6452c1dd4ff5e47d2f275c8.1e9a1cfb5aff0568b7b3.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/9e45d6ad353c0a0260d8697e6a5eecbb3912c5fa.e478d2c203dd6f71eb48.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/02589dcfa436bf2fab4b0fe7d07a3cafc1e0c3eb.0be9bbcf38e394da5c0b.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/chunks/pages/%5Buser%5D/%5Btrack%5D-a8cb72950dd3c5403db1.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/1789574505/_buildManifest.js" async=""></script>
+        <script src="https://m.sndcdn.com/_next/static/1789574505/_ssgManifest.js" async=""></script>
+    </body>
 </html>
